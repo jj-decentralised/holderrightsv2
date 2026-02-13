@@ -7,6 +7,7 @@ import { PodcastTracker } from "../pages/PodcastTracker";
 import { PortfolioRequests } from "../pages/PortfolioRequests";
 import { BoardView } from "../pages/BoardView";
 import { CalendarView } from "../pages/CalendarView";
+import { Bandwidth } from "../pages/Bandwidth";
 import {
   LayoutDashboard,
   Twitter,
@@ -16,18 +17,20 @@ import {
   Briefcase,
   Columns3,
   CalendarDays,
+  Users,
   Menu,
   X,
   Search,
 } from "lucide-react";
 import { useItems } from "../store";
 
-type Page = "dashboard" | "board" | "calendar" | "twitter" | "editorial" | "ttd" | "podcast" | "portfolio";
+type Page = "dashboard" | "board" | "calendar" | "bandwidth" | "twitter" | "editorial" | "ttd" | "podcast" | "portfolio";
 
 const navItems: { id: Page; label: string; shortLabel: string; icon: React.ReactNode; separator?: boolean }[] = [
   { id: "dashboard", label: "Dashboard", shortLabel: "Home", icon: <LayoutDashboard size={16} /> },
   { id: "board", label: "Board", shortLabel: "Board", icon: <Columns3 size={16} /> },
-  { id: "calendar", label: "Calendar", shortLabel: "Calendar", icon: <CalendarDays size={16} />, separator: true },
+  { id: "calendar", label: "Calendar", shortLabel: "Calendar", icon: <CalendarDays size={16} /> },
+  { id: "bandwidth", label: "Bandwidth", shortLabel: "Team", icon: <Users size={16} />, separator: true },
   { id: "twitter", label: "Twitter", shortLabel: "Twitter", icon: <Twitter size={16} /> },
   { id: "editorial", label: "Editorial", shortLabel: "Editorial", icon: <FileText size={16} /> },
   { id: "ttd", label: "TokenDispatch", shortLabel: "TTD", icon: <Newspaper size={16} /> },
@@ -51,6 +54,7 @@ export function AppLayout() {
       case "dashboard": return <Dashboard onNavigate={setCurrentPage} />;
       case "board": return <BoardView />;
       case "calendar": return <CalendarView />;
+      case "bandwidth": return <Bandwidth />;
       case "twitter": return <TwitterBoard />;
       case "editorial": return <EditorialCalendar />;
       case "ttd": return <TTDCalendar />;

@@ -1,6 +1,8 @@
 import { useSyncExternalStore } from "react";
 
 /* ─── Types ─── */
+export type ArtStatus = "none" | "needs_art" | "art_requested" | "art_in_progress" | "art_review" | "art_done";
+
 export interface ContentItem {
   _id: string;
   type: "twitter" | "editorial" | "ttd" | "podcast" | "portfolio";
@@ -18,6 +20,11 @@ export interface ContentItem {
   priority?: "low" | "medium" | "high";
   notes?: string;
   createdBy?: string;
+  /* Art / Creative tracking */
+  artStatus?: ArtStatus;
+  artAssignee?: string;
+  artNotes?: string;
+  artDueDate?: number;
   createdAt: number;
   updatedAt: number;
 }
@@ -106,12 +113,12 @@ function seedIfEmpty() {
       { _id: "e2", type: "editorial", title: "Semiliquid", status: "assigned", assignee: "Joel", dueDate: now - 18 * day, category: "organic", createdAt: now, updatedAt: now - 15 * day },
       { _id: "e3", type: "editorial", title: "Holder Rights", status: "assigned", assignee: "Joel", dueDate: now - 10 * day, category: "organic", createdAt: now, updatedAt: now - 8 * day },
       { _id: "e4", type: "editorial", title: "Drift Thesis", status: "assigned", assignee: "Joel", dueDate: now - 9 * day, category: "organic", createdAt: now, updatedAt: now - 7 * day },
-      { _id: "e5", type: "editorial", title: "LiFi", status: "review", assignee: "Saurabh", dueDate: now - 8 * day, category: "sponsored", createdAt: now, updatedAt: now - 5 * day },
-      { _id: "e6", type: "editorial", title: "LayerZero", status: "assigned", assignee: "Joel", dueDate: now - 4 * day, category: "sponsored", createdAt: now, updatedAt: now - 3 * day },
+      { _id: "e5", type: "editorial", title: "LiFi", status: "review", assignee: "Saurabh", dueDate: now - 8 * day, category: "sponsored", artStatus: "art_in_progress" as ArtStatus, artAssignee: "Andres", artNotes: "Cover art + 3 inline graphics", createdAt: now, updatedAt: now - 5 * day },
+      { _id: "e6", type: "editorial", title: "LayerZero", status: "assigned", assignee: "Joel", dueDate: now - 4 * day, category: "sponsored", artStatus: "needs_art" as ArtStatus, artNotes: "Need cover image, brand kit shared in #art-lifi", createdAt: now, updatedAt: now - 3 * day },
       { _id: "e7", type: "editorial", title: "Crypto revenue analysis", status: "drafting", assignee: "Saurabh", dueDate: now - 1 * day, category: "organic", createdAt: now, updatedAt: now - 1 * day },
-      { _id: "e8", type: "editorial", title: "Saffron", status: "assigned", assignee: "Saurabh", dueDate: now + 3 * day, category: "sponsored", createdAt: now, updatedAt: now },
-      { _id: "e9", type: "editorial", title: "Ronin Deep Dive", status: "drafting", assignee: "Joel", category: "sponsored", createdAt: now, updatedAt: now - 10 * day },
-      { _id: "e10", type: "editorial", title: "Gravity / ZkSync", status: "assigned", assignee: "Vaidik", category: "sponsored", createdAt: now, updatedAt: now },
+      { _id: "e8", type: "editorial", title: "Saffron", status: "assigned", assignee: "Saurabh", dueDate: now + 3 * day, category: "sponsored", artStatus: "art_requested" as ArtStatus, artAssignee: "Andres", artDueDate: now + 2 * day, createdAt: now, updatedAt: now },
+      { _id: "e9", type: "editorial", title: "Ronin Deep Dive", status: "drafting", assignee: "Joel", category: "sponsored", artStatus: "art_done" as ArtStatus, artAssignee: "Andres", createdAt: now, updatedAt: now - 10 * day },
+      { _id: "e10", type: "editorial", title: "Gravity / ZkSync", status: "assigned", assignee: "Vaidik", category: "sponsored", artStatus: "needs_art" as ArtStatus, createdAt: now, updatedAt: now },
       { _id: "e11", type: "editorial", title: "Futarchy", status: "pitch", assignee: "Joel", category: "organic", createdAt: now, updatedAt: now },
       { _id: "e12", type: "editorial", title: "Ethena Thesis", status: "pitch", category: "organic", createdAt: now, updatedAt: now },
       { _id: "e13", type: "editorial", title: "Bebop", status: "pitch", assignee: "Joel", category: "collaboration", createdAt: now, updatedAt: now },
