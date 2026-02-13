@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "members": [
     {
       "_id": "m1",
@@ -146,12 +146,12 @@
       "_id": "t5",
       "type": "twitter",
       "title": "Virtuals Protocol analysis",
-      "status": "drafting",
+      "status": "review",
       "assignee": "Vaidik",
       "format": "thread",
       "waitingOn": "Sid",
-      "handoffNote": "Vaidik committed to finishing today and sharing with Sid",
-      "handoffAt": 1770952382176,
+      "handoffNote": "Vaidik shared with Sid — awaiting Sid review",
+      "handoffAt": 1770976315948,
       "activity": [
         {
           "ts": 1770953704626,
@@ -192,10 +192,15 @@
           "ts": 1770973982176,
           "text": "Viktor nudged Vaidik — no confirmation shared with Sid yet",
           "by": "Viktor"
+        },
+        {
+          "ts": 1770976315948,
+          "text": "Vaidik confirmed: shared with Sid",
+          "by": "Vaidik"
         }
       ],
       "createdAt": 1770975304626,
-      "updatedAt": 1770975782176
+      "updatedAt": 1770976315948
     },
     {
       "_id": "e1",
