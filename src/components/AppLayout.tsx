@@ -10,6 +10,7 @@ import { CalendarView } from "../pages/CalendarView";
 import { Bandwidth } from "../pages/Bandwidth";
 import { ArtPipeline } from "../pages/ArtPipeline";
 import { DealsTracker } from "../pages/DealsTracker";
+import { DailyCheckins } from "../pages/DailyCheckins";
 import {
   LayoutDashboard,
   Twitter,
@@ -22,13 +23,14 @@ import {
   Users,
   Palette,
   DollarSign,
+  Radio,
   Menu,
   X,
   Search,
 } from "lucide-react";
 import { useItems } from "../store";
 
-type Page = "dashboard" | "board" | "calendar" | "bandwidth" | "art" | "twitter" | "editorial" | "ttd" | "podcast" | "portfolio" | "deals";
+type Page = "dashboard" | "board" | "calendar" | "bandwidth" | "art" | "twitter" | "editorial" | "ttd" | "podcast" | "portfolio" | "deals" | "checkins";
 
 const navItems: { id: Page; label: string; shortLabel: string; icon: React.ReactNode; separator?: boolean }[] = [
   { id: "dashboard", label: "Dashboard", shortLabel: "Home", icon: <LayoutDashboard size={16} /> },
@@ -41,7 +43,8 @@ const navItems: { id: Page; label: string; shortLabel: string; icon: React.React
   { id: "ttd", label: "TokenDispatch", shortLabel: "TTD", icon: <Newspaper size={16} /> },
   { id: "podcast", label: "Podcast", shortLabel: "Podcast", icon: <Mic size={16} /> },
   { id: "portfolio", label: "Portfolio", shortLabel: "Portfolio", icon: <Briefcase size={16} /> },
-  { id: "deals", label: "Deals", shortLabel: "Deals", icon: <DollarSign size={16} />, separator: true },
+  { id: "deals", label: "Deals", shortLabel: "Deals", icon: <DollarSign size={16} /> },
+  { id: "checkins", label: "Check-ins", shortLabel: "Check-ins", icon: <Radio size={16} />, separator: true },
 ];
 
 export function AppLayout() {
@@ -68,6 +71,7 @@ export function AppLayout() {
       case "podcast": return <PodcastTracker />;
       case "portfolio": return <PortfolioRequests />;
       case "deals": return <DealsTracker />;
+      case "checkins": return <DailyCheckins />;
     }
   };
 

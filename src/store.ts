@@ -47,6 +47,39 @@ export interface ContentItem {
   updatedAt: number;
 }
 
+export interface CheckinEntry {
+  person: string;
+  summary: string;
+  items_updated?: string[];
+  source: "slack_scan" | "direct_ping" | "manual";
+  confidence: "high" | "medium" | "low";
+}
+
+export interface HubUpdate {
+  item_id: string;
+  item_title?: string;
+  field: string;
+  old_value?: string;
+  new_value?: string;
+}
+
+export interface PingSent {
+  person: string;
+  reason: string;
+  channel?: string;
+}
+
+export interface Checkin {
+  _id: string;
+  date: string; // YYYY-MM-DD
+  hour: number;
+  ts: number;
+  entries: CheckinEntry[];
+  hub_updates: HubUpdate[];
+  pings_sent: PingSent[];
+  summary?: string;
+}
+
 export interface TeamMember {
   _id: string;
   name: string;
@@ -58,6 +91,7 @@ export interface TeamMember {
 /* ─── External store for cross-component reactivity ─── */
 let items: ContentItem[] = [];
 let members: TeamMember[] = [];
+let checkins: Checkin[] = [];
 let listeners = new Set<() => void>();
 let dataVersion = 0;
 
@@ -66,6 +100,7 @@ function emit() { dataVersion++; listeners.forEach((l) => l()); }
 function persist() {
   localStorage.setItem("dco_items", JSON.stringify(items));
   localStorage.setItem("dco_members", JSON.stringify(members));
+  localStorage.setItem("dco_checkins", JSON.stringify(checkins));
   localStorage.setItem("dco_version", String(dataVersion));
 }
 
@@ -73,8 +108,10 @@ function load() {
   try {
     const i = localStorage.getItem("dco_items");
     const m = localStorage.getItem("dco_members");
+    const c = localStorage.getItem("dco_checkins");
     if (i) items = JSON.parse(i);
     if (m) members = JSON.parse(m);
+    if (c) checkins = JSON.parse(c);
   } catch {}
 }
 
@@ -91,6 +128,7 @@ async function fetchRemoteData() {
       if (Number(remoteVersion) >= Number(localVersion) || items.length === 0) {
         items = data.items;
         if (data.members) members = data.members;
+        if (data.checkins) checkins = data.checkins;
         dataVersion = Number(remoteVersion);
         persist();
         emit();
@@ -206,6 +244,22 @@ export function useMembers(): TeamMember[] {
   return useSyncExternalStore(subscribe, () => members, () => members);
 }
 
+export function useCheckins(): Checkin[] {
+  const snapshot = useSyncExternalStore(subscribe, () => JSON.stringify(checkins));
+  return JSON.parse(snapshot);
+}
+
+export function useCheckinsByDate(date: string): Checkin[] {
+  const all = useCheckins();
+  return all.filter((c) => c.date === date).sort((a, b) => a.hour - b.hour);
+}
+
+export function useCheckinDates(): string[] {
+  const all = useCheckins();
+  const dates = [...new Set(all.map((c) => c.date))].sort().reverse();
+  return dates;
+}
+
 export function useStats() {
   const all = useItems();
   const now = Date.now();
@@ -292,9 +346,12 @@ export function exportData() {
   return { version: dataVersion, items, members, exportedAt: Date.now() };
 }
 
-export function importData(data: { items: ContentItem[]; members?: TeamMember[]; version?: number }) {
+export function importData(data: { items: ContentItem[]; members?: TeamMember[]; checkins?: Checkin[]; version?: number }) {
   items = data.items;
   if (data.members) members = data.members;
+  if (data.checkins) checkins = data.checkins;
   if (data.version) dataVersion = data.version;
   persist(); emit();
 }
+
+export function exportCheckins() { return checkins; }
