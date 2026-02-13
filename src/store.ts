@@ -84,9 +84,10 @@ async function fetchRemoteData() {
     const resp = await fetch("/data.json?t=" + Date.now());
     if (!resp.ok) return;
     const data = await resp.json();
-    if (data.items && Array.isArray(data.items)) {
+    if (data.items && Array.isArray(data.items) && data.items.length > 0) {
       const localVersion = localStorage.getItem("dco_version") || "0";
       const remoteVersion = String(data.version || 0);
+      // Remote wins if version is newer, but never overwrite with empty data
       if (Number(remoteVersion) >= Number(localVersion) || items.length === 0) {
         items = data.items;
         if (data.members) members = data.members;
