@@ -486,7 +486,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1770987826962,
+  "updatedAt": 1770991562590,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -731,6 +731,52 @@
       ],
       "pings_sent": [],
       "summary": "Joel actively working on Drift thesis \u2014 fact-checked doc with Viktor, 13 corrections made. Status updated to drafting. Silver article still waiting on Pratik. Virtuals still waiting on Sid. No writer pings needed."
+    },
+    {
+      "_id": "ci_20260213_18",
+      "date": "2026-02-13",
+      "hour": 18,
+      "ts": 1770991562590,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Very active last hour. Reviewed WIP Twitter concepts from Content Hub. Shared a new Google Doc for fact-checking (separate from Drift). Requested critical team productivity assessment \u2014 received detailed breakdown. Working late (past 6 PM GST).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "No new activity since last scan. Virtuals (t5) still waiting on Sid's review. TTD d6 (DeFi yield strategies) due tomorrow, status: drafting. Gravity/ZkSync (e10) assigned, no movement.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No new activity since editing Silver article (~16:27 GST). Still waiting on Pratik's final sign-off on Silver (e_silver). TTD d7 (Stablecoin regulation) due Feb 15.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No public channel or DM activity this scan window. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1). Joel already scheduled Monday 5 PM sync. End of day \u2014 no ping sent (past 6 PM GST).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Sid",
+          "summary": "Zero activity all day. Virtuals (t5) review DM sent ~6h ago with no response. Was the blocker Joel identified for getting Virtuals live today.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "Quiet scan. Joel active (new doc fact-check, productivity review) but no content status changes. All writers silent \u2014 end of workday (past 6 PM GST). No pings sent. Silver still blocked on Pratik, Virtuals still blocked on Sid."
     }
   ],
   "teamBandwidth": {
