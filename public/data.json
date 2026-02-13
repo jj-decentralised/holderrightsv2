@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "items": [
     {
       "_id": "t1",
@@ -988,6 +988,16 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "2 AM GST Saturday quiet scan \u2014 zero activity across all channels and DMs since 1 AM scan. All writers offline. d6 (Vaidik DeFi yield TTD, due today Feb 14) still pending. e_silver remains scheduled for Saturday publishing. No hub updates, no pings."
+    },
+    {
+      "_id": "ci_20260213_23",
+      "date": "2026-02-13",
+      "hour": 23,
+      "ts": 1771023745647,
+      "entries": [],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "3 AM GST Saturday \u2014 zero activity across all channels and DMs. All writers offline. d6 (Vaidik DeFi yield TTD, due today) still pending. e_silver scheduled for Saturday publishing. No hub changes."
     }
   ],
   "teamBandwidth": {
