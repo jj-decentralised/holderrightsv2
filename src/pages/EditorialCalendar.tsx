@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { useItems, useMembers, createItem, updateItem, removeItem } from "../store";
-import { Plus, X, Filter } from "lucide-react";
+import { useState, useRef } from "react";
+import { useItems, useMembers, createItem, updateItem, removeItem, updateStatus } from "../store";
+import { Plus, X, Filter, GripVertical } from "lucide-react";
 
 const STATUSES = ["pitch", "assigned", "drafting", "review", "copy_edit", "ready", "published"] as const;
 const STATUS_DOT: Record<string, string> = { pitch: "bg-gray-400", assigned: "bg-blue-400", drafting: "bg-amber-400", review: "bg-purple-400", copy_edit: "bg-pink-400", ready: "bg-teal-400", published: "bg-emerald-400" };
@@ -14,6 +14,14 @@ const CATEGORIES = [
 
 function fmtDate(ts: number) { return new Date(ts).toLocaleDateString("en-US", { month: "short", day: "numeric" }); }
 function isOverdue(i: any) { return i.dueDate && i.dueDate < Date.now() && i.status !== "published"; }
+function relTime(ts: number) {
+  const days = Math.round((ts - Date.now()) / 86400000);
+  if (days === 0) return "Today";
+  if (days === 1) return "Tomorrow";
+  if (days === -1) return "Yesterday";
+  if (days < -1) return `${Math.abs(days)}d overdue`;
+  return `In ${days}d`;
+}
 
 export function EditorialCalendar() {
   const items = useItems("editorial");
@@ -24,6 +32,28 @@ export function EditorialCalendar() {
   const [modal, setModal] = useState<"add" | null>(null);
   const [editing, setEditing] = useState<any>(null);
   const [f, setF] = useState({ title: "", assignee: "", category: "organic", dueDate: "", notes: "", status: "pitch" });
+
+  // Drag & drop state
+  const dragItem = useRef<string | null>(null);
+  const [dragOverCol, setDragOverCol] = useState<string | null>(null);
+
+  const handleDragStart = (e: React.DragEvent, id: string) => {
+    dragItem.current = id;
+    e.dataTransfer.effectAllowed = "move";
+    if (e.currentTarget instanceof HTMLElement) e.currentTarget.style.opacity = "0.4";
+  };
+  const handleDragEnd = (e: React.DragEvent) => {
+    dragItem.current = null; setDragOverCol(null);
+    if (e.currentTarget instanceof HTMLElement) e.currentTarget.style.opacity = "1";
+  };
+  const handleDrop = (e: React.DragEvent, colId: string) => {
+    e.preventDefault(); setDragOverCol(null);
+    if (dragItem.current) {
+      const item = items.find((i) => i._id === dragItem.current);
+      if (item && item.status !== colId) updateStatus(dragItem.current, colId);
+      dragItem.current = null;
+    }
+  };
 
   const filtered = items.filter((i) => {
     if (filterCat !== "all" && i.category !== filterCat) return false;
@@ -68,32 +98,62 @@ export function EditorialCalendar() {
         </select>
       </div>
 
+      {/* ─── Board view with drag & drop ─── */}
       {view === "board" && (
         <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-7 gap-3 overflow-x-auto">
           {STATUSES.map((st) => {
             const col = filtered.filter((i) => i.status === st);
+            const isOver = dragOverCol === st;
             return (
-              <div key={st} className="bg-gray-50 rounded-xl border border-gray-200 min-w-[160px]">
+              <div
+                key={st}
+                className={`rounded-xl border transition-all duration-150 min-w-[160px] ${
+                  isOver ? "bg-indigo-50/60 border-indigo-200 ring-1 ring-indigo-200" : "bg-gray-50 border-gray-200"
+                }`}
+                onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; setDragOverCol(st); }}
+                onDragLeave={() => setDragOverCol(null)}
+                onDrop={(e) => handleDrop(e, st)}
+              >
                 <div className="px-3 py-2.5 border-b border-gray-100 flex items-center gap-1.5">
                   <span className={`w-2 h-2 rounded-full ${STATUS_DOT[st]}`} />
                   <span className="text-[11px] font-semibold text-gray-600">{STATUS_LABEL[st]}</span>
                   <span className="ml-auto text-[11px] text-gray-400">{col.length}</span>
                 </div>
-                <div className="p-1.5 space-y-1.5 min-h-[120px]">
+                <div className={`p-1.5 space-y-1.5 min-h-[120px] transition-all ${isOver ? "min-h-[160px]" : ""}`}>
                   {col.map((i) => {
                     const cat = CATEGORIES.find((c) => c.id === i.category);
                     return (
-                      <div key={i._id} onClick={() => setEditing({ ...i, dueDateStr: i.dueDate ? new Date(i.dueDate).toISOString().split("T")[0] : "" })}
-                        className={`bg-white border rounded-lg p-2 cursor-pointer hover:shadow-sm transition text-xs ${isOverdue(i) ? "border-red-200" : "border-gray-100"}`}>
-                        <div className="font-medium text-gray-900 line-clamp-2">{i.title}</div>
-                        <div className="flex items-center gap-1.5 mt-1.5 flex-wrap">
-                          {cat && <span className={`px-1.5 py-0.5 rounded border text-[10px] font-medium ${cat.cls}`}>{cat.label}</span>}
-                          {i.assignee && <span className="text-gray-400 text-[10px]">{i.assignee}</span>}
+                      <div
+                        key={i._id}
+                        draggable
+                        onDragStart={(e) => handleDragStart(e, i._id)}
+                        onDragEnd={handleDragEnd}
+                        onClick={() => setEditing({ ...i, dueDateStr: i.dueDate ? new Date(i.dueDate).toISOString().split("T")[0] : "" })}
+                        className={`bg-white border rounded-lg p-2 cursor-grab active:cursor-grabbing hover:shadow-sm transition group select-none ${isOverdue(i) ? "border-red-200" : "border-gray-100"}`}
+                      >
+                        <div className="flex items-start gap-1">
+                          <span className="text-gray-200 mt-0.5 opacity-0 group-hover:opacity-100 transition shrink-0">
+                            <GripVertical size={10} />
+                          </span>
+                          <div className="flex-1 min-w-0">
+                            <div className="font-medium text-gray-900 line-clamp-2 text-xs">{i.title}</div>
+                            <div className="flex items-center gap-1.5 mt-1.5 flex-wrap">
+                              {cat && <span className={`px-1.5 py-0.5 rounded border text-[10px] font-medium ${cat.cls}`}>{cat.label}</span>}
+                              {i.assignee && <span className="text-gray-400 text-[10px]">{i.assignee}</span>}
+                            </div>
+                            {i.dueDate && (
+                              <div className={`text-[10px] mt-1 ${isOverdue(i) ? "text-red-500 font-medium" : "text-gray-400"}`}>
+                                {relTime(i.dueDate)}
+                              </div>
+                            )}
+                          </div>
                         </div>
-                        {i.dueDate && <div className={`text-[10px] mt-1 ${isOverdue(i) ? "text-red-500 font-medium" : "text-gray-400"}`}>{fmtDate(i.dueDate)}{isOverdue(i) && " ⚠"}</div>}
                       </div>
                     );
                   })}
+                  {isOver && col.length === 0 && (
+                    <div className="border-2 border-dashed border-indigo-200 rounded-lg p-4 text-center text-xs text-indigo-400">Drop here</div>
+                  )}
                 </div>
               </div>
             );
@@ -101,6 +161,7 @@ export function EditorialCalendar() {
         </div>
       )}
 
+      {/* ─── List view ─── */}
       {view === "list" && (
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
           <table className="w-full text-sm">
@@ -122,7 +183,9 @@ export function EditorialCalendar() {
                     <td className="px-3 py-3">{cat && <span className={`text-[11px] px-2 py-0.5 rounded-full border font-medium ${cat.cls}`}>{cat.label}</span>}</td>
                     <td className="px-3 py-3"><span className="flex items-center gap-1.5"><span className={`w-1.5 h-1.5 rounded-full ${STATUS_DOT[i.status]}`} /><span className="text-xs text-gray-600">{STATUS_LABEL[i.status]}</span></span></td>
                     <td className="px-3 py-3 text-gray-500 text-xs">{i.assignee || "—"}</td>
-                    <td className={`px-3 py-3 text-xs ${overdue ? "text-red-500 font-medium" : "text-gray-400"}`}>{i.dueDate ? fmtDate(i.dueDate) : "—"}{overdue && " ⚠"}</td>
+                    <td className={`px-3 py-3 text-xs ${overdue ? "text-red-500 font-medium" : "text-gray-400"}`}>
+                      {i.dueDate ? relTime(i.dueDate) : "—"}
+                    </td>
                   </tr>
                 );
               })}

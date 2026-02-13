@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useItems, useMembers, createItem, updateItem, updateStatus, removeItem } from "../store";
-import { Plus, X, AlignLeft, MessageSquare, Repeat2 } from "lucide-react";
+import { Plus, X, AlignLeft, MessageSquare, Repeat2, GripVertical } from "lucide-react";
 
 const COLS = [
   { id: "pitch", label: "Pitch", dot: "bg-gray-400" },
@@ -22,6 +22,49 @@ export function TwitterBoard() {
   const [editing, setEditing] = useState<any>(null);
   const [f, setF] = useState({ title: "", assignee: "", format: "thread", notes: "" });
 
+  // Drag and drop state
+  const dragItem = useRef<string | null>(null);
+  const [dragOverCol, setDragOverCol] = useState<string | null>(null);
+
+  const handleDragStart = (e: React.DragEvent, id: string) => {
+    dragItem.current = id;
+    e.dataTransfer.effectAllowed = "move";
+    // Make the drag image slightly transparent
+    if (e.currentTarget instanceof HTMLElement) {
+      e.currentTarget.style.opacity = "0.5";
+    }
+  };
+
+  const handleDragEnd = (e: React.DragEvent) => {
+    dragItem.current = null;
+    setDragOverCol(null);
+    if (e.currentTarget instanceof HTMLElement) {
+      e.currentTarget.style.opacity = "1";
+    }
+  };
+
+  const handleDragOver = (e: React.DragEvent, colId: string) => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "move";
+    setDragOverCol(colId);
+  };
+
+  const handleDragLeave = () => {
+    setDragOverCol(null);
+  };
+
+  const handleDrop = (e: React.DragEvent, colId: string) => {
+    e.preventDefault();
+    setDragOverCol(null);
+    if (dragItem.current) {
+      const item = items.find((i) => i._id === dragItem.current);
+      if (item && item.status !== colId) {
+        updateStatus(dragItem.current, colId);
+      }
+      dragItem.current = null;
+    }
+  };
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
@@ -34,36 +77,57 @@ export function TwitterBoard() {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
         {COLS.map((col) => {
           const colItems = items.filter((i) => i.status === col.id);
+          const isOver = dragOverCol === col.id;
           return (
-            <div key={col.id} className="bg-gray-50 rounded-xl border border-gray-200">
+            <div
+              key={col.id}
+              className={`rounded-xl border transition-all duration-150 ${
+                isOver
+                  ? "bg-indigo-50/60 border-indigo-200 ring-1 ring-indigo-200"
+                  : "bg-gray-50 border-gray-200"
+              }`}
+              onDragOver={(e) => handleDragOver(e, col.id)}
+              onDragLeave={handleDragLeave}
+              onDrop={(e) => handleDrop(e, col.id)}
+            >
               <div className="px-4 py-3 flex items-center gap-2 border-b border-gray-100">
                 <span className={`w-2 h-2 rounded-full ${col.dot}`} />
                 <span className="text-xs font-semibold text-gray-700">{col.label}</span>
                 <span className="ml-auto text-xs text-gray-400">{colItems.length}</span>
               </div>
-              <div className="p-2 space-y-2 min-h-[180px]">
+              <div className={`p-2 space-y-2 min-h-[180px] transition-all ${isOver ? "min-h-[220px]" : ""}`}>
                 {colItems.map((item) => (
-                  <div key={item._id} onClick={() => setEditing({ ...item })}
-                    className="bg-white border border-gray-200 rounded-lg p-3 cursor-pointer hover:shadow-sm transition group">
-                    <div className="text-sm font-medium text-gray-900">{item.title}</div>
-                    <div className="flex items-center gap-2 mt-2 flex-wrap">
-                      {item.format && FMT[item.format] && (
-                        <span className="inline-flex items-center gap-1 text-[11px] text-gray-500 bg-gray-50 border border-gray-100 px-1.5 py-0.5 rounded">
-                          {FMT[item.format].icon} {FMT[item.format].label}
-                        </span>
-                      )}
-                      {item.assignee && <span className="text-[11px] text-gray-400">{item.assignee}</span>}
-                    </div>
-                    <div className="flex gap-1 mt-2 opacity-0 group-hover:opacity-100 transition">
-                      {COLS.filter((c) => c.id !== item.status).map((c) => (
-                        <button key={c.id} onClick={(e) => { e.stopPropagation(); updateStatus(item._id, c.id); }}
-                          className="text-[10px] text-gray-400 hover:text-indigo-600 bg-gray-50 hover:bg-indigo-50 border border-gray-100 px-1.5 py-0.5 rounded transition">
-                          → {c.label}
-                        </button>
-                      ))}
+                  <div
+                    key={item._id}
+                    draggable
+                    onDragStart={(e) => handleDragStart(e, item._id)}
+                    onDragEnd={handleDragEnd}
+                    onClick={() => setEditing({ ...item })}
+                    className="bg-white border border-gray-200 rounded-lg p-3 cursor-grab active:cursor-grabbing hover:shadow-sm transition group select-none"
+                  >
+                    <div className="flex items-start gap-1.5">
+                      <span className="text-gray-300 mt-0.5 opacity-0 group-hover:opacity-100 transition shrink-0">
+                        <GripVertical size={12} />
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-medium text-gray-900">{item.title}</div>
+                        <div className="flex items-center gap-2 mt-2 flex-wrap">
+                          {item.format && FMT[item.format] && (
+                            <span className="inline-flex items-center gap-1 text-[11px] text-gray-500 bg-gray-50 border border-gray-100 px-1.5 py-0.5 rounded">
+                              {FMT[item.format].icon} {FMT[item.format].label}
+                            </span>
+                          )}
+                          {item.assignee && <span className="text-[11px] text-gray-400">{item.assignee}</span>}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 ))}
+                {isOver && colItems.length === 0 && (
+                  <div className="border-2 border-dashed border-indigo-200 rounded-lg p-4 text-center text-xs text-indigo-400">
+                    Drop here
+                  </div>
+                )}
               </div>
             </div>
           );

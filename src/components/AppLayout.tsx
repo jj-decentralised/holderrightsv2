@@ -5,6 +5,8 @@ import { EditorialCalendar } from "../pages/EditorialCalendar";
 import { TTDCalendar } from "../pages/TTDCalendar";
 import { PodcastTracker } from "../pages/PodcastTracker";
 import { PortfolioRequests } from "../pages/PortfolioRequests";
+import { BoardView } from "../pages/BoardView";
+import { CalendarView } from "../pages/CalendarView";
 import {
   LayoutDashboard,
   Twitter,
@@ -12,16 +14,20 @@ import {
   Newspaper,
   Mic,
   Briefcase,
+  Columns3,
+  CalendarDays,
   Menu,
   X,
   Search,
 } from "lucide-react";
 import { useItems } from "../store";
 
-type Page = "dashboard" | "twitter" | "editorial" | "ttd" | "podcast" | "portfolio";
+type Page = "dashboard" | "board" | "calendar" | "twitter" | "editorial" | "ttd" | "podcast" | "portfolio";
 
-const navItems: { id: Page; label: string; shortLabel: string; icon: React.ReactNode }[] = [
+const navItems: { id: Page; label: string; shortLabel: string; icon: React.ReactNode; separator?: boolean }[] = [
   { id: "dashboard", label: "Dashboard", shortLabel: "Home", icon: <LayoutDashboard size={16} /> },
+  { id: "board", label: "Board", shortLabel: "Board", icon: <Columns3 size={16} /> },
+  { id: "calendar", label: "Calendar", shortLabel: "Calendar", icon: <CalendarDays size={16} />, separator: true },
   { id: "twitter", label: "Twitter", shortLabel: "Twitter", icon: <Twitter size={16} /> },
   { id: "editorial", label: "Editorial", shortLabel: "Editorial", icon: <FileText size={16} /> },
   { id: "ttd", label: "TokenDispatch", shortLabel: "TTD", icon: <Newspaper size={16} /> },
@@ -43,6 +49,8 @@ export function AppLayout() {
   const renderPage = () => {
     switch (currentPage) {
       case "dashboard": return <Dashboard onNavigate={setCurrentPage} />;
+      case "board": return <BoardView />;
+      case "calendar": return <CalendarView />;
       case "twitter": return <TwitterBoard />;
       case "editorial": return <EditorialCalendar />;
       case "ttd": return <TTDCalendar />;
@@ -80,18 +88,20 @@ export function AppLayout() {
 
         <nav className="flex-1 px-2 py-3 space-y-0.5 overflow-y-auto">
           {navItems.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => { setCurrentPage(item.id); setSidebarOpen(false); }}
-              className={`w-full flex items-center gap-2.5 px-2.5 py-[7px] rounded-md text-[13px] transition-all ${
-                currentPage === item.id
-                  ? "bg-white text-gray-900 font-medium shadow-[0_1px_2px_rgba(0,0,0,0.04)] border border-gray-100"
-                  : "text-gray-500 hover:text-gray-700 hover:bg-white/60 border border-transparent"
-              }`}
-            >
-              <span className={currentPage === item.id ? "text-gray-700" : "text-gray-400"}>{item.icon}</span>
-              {item.label}
-            </button>
+            <div key={item.id}>
+              <button
+                onClick={() => { setCurrentPage(item.id); setSidebarOpen(false); }}
+                className={`w-full flex items-center gap-2.5 px-2.5 py-[7px] rounded-md text-[13px] transition-all ${
+                  currentPage === item.id
+                    ? "bg-white text-gray-900 font-medium shadow-[0_1px_2px_rgba(0,0,0,0.04)] border border-gray-100"
+                    : "text-gray-500 hover:text-gray-700 hover:bg-white/60 border border-transparent"
+                }`}
+              >
+                <span className={currentPage === item.id ? "text-gray-700" : "text-gray-400"}>{item.icon}</span>
+                {item.label}
+              </button>
+              {item.separator && <div className="my-2 mx-2.5 border-t border-gray-100" />}
+            </div>
           ))}
         </nav>
 
