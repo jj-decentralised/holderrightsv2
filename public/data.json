@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "items": [
     {
       "_id": "t1",
@@ -44,14 +44,11 @@
       "_id": "t5",
       "type": "twitter",
       "title": "Virtuals Protocol analysis",
-      "status": "review",
+      "status": "published",
       "assignee": "Vaidik",
       "format": "thread",
       "createdAt": 1770972230398,
-      "updatedAt": 1770980621257,
-      "waitingOn": "Sid",
-      "handoffNote": "Vaidik finished revisions and shared doc with Sid for review",
-      "handoffAt": 1770980621256,
+      "updatedAt": 1770995020472,
       "activity": [
         {
           "ts": 1770976972682,
@@ -66,6 +63,11 @@
         {
           "ts": 1770980621256,
           "text": "Vaidik finished Virtuals copy and shared Google Doc with Sid for review",
+          "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1770995020472,
+          "text": "Vaidik sent final Twitter draft to Joel. Joel published it live on @Decentralisedco (https://x.com/Decentralisedco/status/2022323891885277481). Bypassed Sid review (unresponsive all day).",
           "by": "Viktor (scan)"
         }
       ],
@@ -486,7 +488,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1770991562590,
+  "updatedAt": 1770995020472,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -777,6 +779,71 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "Quiet scan. Joel active (new doc fact-check, productivity review) but no content status changes. All writers silent \u2014 end of workday (past 6 PM GST). No pings sent. Silver still blocked on Pratik, Virtuals still blocked on Sid."
+    },
+    {
+      "_id": "ci_20260213_19",
+      "date": "2026-02-13",
+      "hour": 19,
+      "ts": 1770995020472,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Active late evening. Requested Viktor check in with Vaidik + Prathik/Nishil on open items. Then posted Virtuals tweet live on @Decentralisedco \u2014 published the piece directly, bypassing Sid's stalled review.",
+          "items_updated": [
+            "t5"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Responded quickly to check-in \u2014 confirmed he sent the final Virtuals Twitter draft to Joel. Piece then went live. d6 (DeFi yield TTD) still due tomorrow, Gravity/ZkSync (e10) no movement.",
+          "items_updated": [
+            "t5"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No response to latest Silver article check-in ping. e_silver still waiting on Prathik's sign-off. d7 (Stablecoin regulation TTD) due Feb 15.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity this scan window. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1). Joel's Monday 5 PM sync is the next touchpoint.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Sid",
+          "summary": "Still zero activity all day. Joel bypassed his stalled Virtuals review and published the piece directly. No response to DM sent ~8h ago.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Prathik",
+          "summary": "No response to third ping on Silver article sign-off. Has been silent since adding comments earlier today (~4:30 PM GST).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [
+        {
+          "item_id": "t5",
+          "item_title": "Virtuals Protocol analysis",
+          "field": "status",
+          "old_value": "review",
+          "new_value": "published"
+        }
+      ],
+      "pings_sent": [],
+      "summary": "Virtuals Protocol tweet published live by Joel \u2014 bypassed Sid's stalled review. t5 status updated to published. Silver article still stuck on Prathik sign-off. All writers quiet (evening hours). No pings sent \u2014 past 6 PM GST."
     }
   ],
   "teamBandwidth": {
