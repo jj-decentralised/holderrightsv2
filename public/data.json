@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "members": [
     {
       "_id": "m1",
@@ -150,8 +150,8 @@
       "assignee": "Vaidik",
       "format": "thread",
       "waitingOn": "Sid",
-      "handoffNote": "Joel asked Vaidik to share with Sid once done",
-      "handoffAt": 1770960904626,
+      "handoffNote": "Vaidik committed to finishing today and sharing with Sid",
+      "handoffAt": 1770952382176,
       "activity": [
         {
           "ts": 1770953704626,
@@ -172,10 +172,30 @@
           "ts": 1770962704626,
           "text": "Vaidik: Okayy",
           "by": "Vaidik"
+        },
+        {
+          "ts": 1770946982176,
+          "text": "Joel in #twitter: can we take the virtual stuff live soon?",
+          "by": "Joel"
+        },
+        {
+          "ts": 1770950582176,
+          "text": "Vaidik: on it to finish, dropping in here just in a bit. Take it live today by all means 🫡",
+          "by": "Vaidik"
+        },
+        {
+          "ts": 1770952382176,
+          "text": "Joel: please share with Sid once done",
+          "by": "Joel"
+        },
+        {
+          "ts": 1770973982176,
+          "text": "Viktor nudged Vaidik — no confirmation shared with Sid yet",
+          "by": "Viktor"
         }
       ],
       "createdAt": 1770975304626,
-      "updatedAt": 1770975304626
+      "updatedAt": 1770975782176
     },
     {
       "_id": "e1",
@@ -546,10 +566,15 @@
           "ts": 1770888904626,
           "text": "Due yesterday — no submission",
           "by": "System"
+        },
+        {
+          "ts": 1770975782176,
+          "text": "Still overdue — no submission or update from Prathik in any channel",
+          "by": "Viktor"
         }
       ],
       "createdAt": 1770975304626,
-      "updatedAt": 1770888904626
+      "updatedAt": 1770975782176
     },
     {
       "_id": "d6e",
@@ -564,34 +589,52 @@
           "ts": 1770888904626,
           "text": "Due yesterday — no submission",
           "by": "System"
+        },
+        {
+          "ts": 1770975782176,
+          "text": "Still overdue — Vaidik focused on Virtuals twitter piece instead, no update on this",
+          "by": "Viktor"
         }
       ],
       "createdAt": 1770975304626,
-      "updatedAt": 1770888904626
+      "updatedAt": 1770975782176
     },
     {
       "_id": "d6f",
       "type": "ttd",
       "title": "Reading list",
-      "status": "drafting",
+      "status": "review",
       "assignee": "Prathik",
       "dueDate": 1770975304626,
       "weekNumber": 7,
-      "draftUrl": "https://docs.google.com/document/d/1bcYg3CpkOyKjNExvvvqyEiFuYLfJC6vXmSfKr4RsHhM/edit",
+      "draftUrl": "https://docs.google.com/document/d/1bcYg3CpkOyKjNExvvvqyEiFuYLfJC6vXmSfKr4RsHhM/edit?tab=t.8gyhioay6zp5",
       "activity": [
         {
-          "ts": 1770968104626,
-          "text": "Prathik shared doc — submitted late (midday)",
+          "ts": 1770961382176,
+          "text": "Prathik shared reading list doc in #dco-ttd (midday — late)",
           "by": "Prathik"
         },
         {
-          "ts": 1770969904626,
-          "text": "Joel: too late, need earlier submissions",
+          "ts": 1770962102176,
+          "text": "Joel: sir it's middle of the day, need to handle other tasks",
           "by": "Joel"
+        },
+        {
+          "ts": 1770962462176,
+          "text": "Prathik: sorry, will bring it in earlier moving forward",
+          "by": "Prathik"
+        },
+        {
+          "ts": 1770962642176,
+          "text": "Prathik: got carried away reading some stuff",
+          "by": "Prathik"
         }
       ],
       "createdAt": 1770975304626,
-      "updatedAt": 1770975304626
+      "updatedAt": 1770975782176,
+      "waitingOn": "Saurabh",
+      "handoffNote": "Prathik submitted late — tagged Saurabh and Joel for review",
+      "handoffAt": 1770961382176
     },
     {
       "_id": "d7",
@@ -601,29 +644,44 @@
       "assignee": "Nishil",
       "dueDate": 1771061704626,
       "weekNumber": 7,
-      "draftUrl": "https://docs.google.com/document/d/13PX5Dm1-YYn1K6rO1LfroOleWxSH2tsWwPfmfMZ2vS4/edit",
+      "draftUrl": "https://docs.google.com/document/d/13PX5Dm1-YYn1K6rO1LfroOleWxSH2tsWwPfmfMZ2vS4/edit?tab=t.0",
       "waitingOn": "Joel",
-      "handoffNote": "Nishil revised per Joel's feedback, back for review",
-      "handoffAt": 1770971704626,
+      "handoffNote": "Nishil revised — Joel reviewing and will share notes",
+      "handoffAt": 1770970382176,
       "activity": [
         {
-          "ts": 1770888904626,
-          "text": "Nishil submitted first draft in #dco-ttd",
+          "ts": 1770867782176,
+          "text": "Nishil shared first draft in #dco-ttd",
           "by": "Nishil"
         },
         {
-          "ts": 1770932104626,
-          "text": "Joel gave feedback",
+          "ts": 1770961382176,
+          "text": "Viktor nudged Nishil for status update",
+          "by": "Viktor"
+        },
+        {
+          "ts": 1770963182176,
+          "text": "Nishil: made changes as Joel suggested, passed back for review",
+          "by": "Nishil"
+        },
+        {
+          "ts": 1770964262176,
+          "text": "Nishil shared updated link",
+          "by": "Nishil"
+        },
+        {
+          "ts": 1770966782176,
+          "text": "Nishil in #dco-ttd: added broader theme, adds much more texture",
+          "by": "Nishil"
+        },
+        {
+          "ts": 1770970382176,
+          "text": "Joel in #dco-ttd: will take a look and share some notes",
           "by": "Joel"
-        },
-        {
-          "ts": 1770971704626,
-          "text": "Nishil: made changes, passed back for review",
-          "by": "Nishil"
         }
       ],
       "createdAt": 1770975304626,
-      "updatedAt": 1770975304626
+      "updatedAt": 1770975782176
     },
     {
       "_id": "p1",
