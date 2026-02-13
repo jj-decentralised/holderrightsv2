@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "members": [
     {
       "_id": "m1",
@@ -197,10 +197,16 @@
           "ts": 1770976315948,
           "text": "Vaidik confirmed: shared with Sid",
           "by": "Vaidik"
+        },
+        {
+          "ts": 1770976541492,
+          "text": "Vaidik shared Google Doc link",
+          "by": "Vaidik"
         }
       ],
       "createdAt": 1770975304626,
-      "updatedAt": 1770976315948
+      "updatedAt": 1770976541492,
+      "draftUrl": "https://docs.google.com/document/d/1a3axE8gfbIW_7XFNFZLbF_fCxEsS9WIQzgvEZDA6aBo/edit?tab=t.0#heading=h.8rn85jaun40h"
     },
     {
       "_id": "e1",
