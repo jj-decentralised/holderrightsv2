@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "items": [
     {
       "_id": "t1",
@@ -109,12 +109,20 @@
       "_id": "e4",
       "type": "editorial",
       "title": "Drift Thesis",
-      "status": "assigned",
+      "status": "drafting",
       "assignee": "Joel",
       "dueDate": 1770194630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1770367430398
+      "updatedAt": 1770987826962,
+      "draftUrl": "https://docs.google.com/document/d/1m4F2A7h8-O5mliPJM527mPcENnyR8RpwEuYDJysTD9c/edit",
+      "activity": [
+        {
+          "ts": 1770987826962,
+          "text": "Joel shared Drift doc for fact-checking. Viktor corrected 13 factual errors and flagged 12+ items for review. Draft actively being worked on.",
+          "by": "Viktor (scan)"
+        }
+      ]
     },
     {
       "_id": "e5",
@@ -478,7 +486,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1770984419332,
+  "updatedAt": 1770987826962,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -660,6 +668,69 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "Quiet scan. Zero new public channel messages. Joel exploring product ideas in DMs. Silver article waiting on Pratik's sign-off. Virtuals waiting on Sid's review. Saurabh silent on editorial \u2014 3 overdue items. No pings or hub changes needed."
+    },
+    {
+      "_id": "ci_20260213_17",
+      "date": "2026-02-13",
+      "hour": 17,
+      "ts": 1770987826962,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Actively working on Drift thesis (e4) \u2014 shared Google Doc for fact-checking with Viktor. 13 factual errors corrected, 12+ items flagged for review. Also connected Google Drive + Email, explored meeting notes workflows, and scheduled a Joel\u2194Saurabh sync for Monday 5 PM GST.",
+          "items_updated": [
+            "e4"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "No new activity since last scan. Last seen in #creatives ~2.5h ago (Capital Formation visual). Virtuals (t5) still waiting on Sid's review. d6 (DeFi yield TTD) due tomorrow, status: drafting. Gravity/ZkSync (e10) assigned, no movement.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Nishil",
+          "summary": "Last active ~1h ago \u2014 edited Silver article per Pratik's comments in dco-ttd. Waiting on Pratik's sign-off (no response to Viktor's follow-up ping yet).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No public channel activity. Viktor DM'd ~1h ago about themes/reads digest channel \u2014 no response. Joel scheduled sync for Monday 5 PM GST. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Sid",
+          "summary": "No response to Virtuals review request (t5) \u2014 DM sent ~4h ago. No public activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [
+        {
+          "item_id": "e4",
+          "item_title": "Drift Thesis",
+          "field": "status",
+          "old_value": "assigned",
+          "new_value": "drafting"
+        },
+        {
+          "item_id": "e4",
+          "item_title": "Drift Thesis",
+          "field": "draftUrl",
+          "old_value": null,
+          "new_value": "https://docs.google.com/document/d/1m4F2A7h8-O5mliPJM527mPcENnyR8RpwEuYDJysTD9c/edit"
+        }
+      ],
+      "pings_sent": [],
+      "summary": "Joel actively working on Drift thesis \u2014 fact-checked doc with Viktor, 13 corrections made. Status updated to drafting. Silver article still waiting on Pratik. Virtuals still waiting on Sid. No writer pings needed."
     }
   ],
   "teamBandwidth": {
