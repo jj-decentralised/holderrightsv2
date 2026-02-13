@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "items": [
     {
       "_id": "t1",
@@ -407,12 +407,12 @@
       "_id": "e_silver",
       "type": "editorial",
       "title": "Silver Article",
-      "status": "review",
+      "status": "scheduled",
       "assignee": "Nishil",
       "category": "organic",
-      "notes": "Nishil addressed Pratik's comments. Back with Pratik/Joel to confirm it's good to go. Doc: https://docs.google.com/document/d/13PX5Dm1-YYn1K6rO1LfroOleWxSH2tsWwPfmfMZ2vS4/",
+      "notes": "Prathik reviewed and approved. Scheduled for publishing (Saturday). Doc: https://docs.google.com/document/d/13PX5Dm1-YYn1K6rO1LfroOleWxSH2tsWwPfmfMZ2vS4/",
       "createdAt": 1770973868009,
-      "updatedAt": 1770982496688,
+      "updatedAt": 1771009392339,
       "draftUrl": "https://docs.google.com/document/d/13PX5Dm1-YYn1K6rO1LfroOleWxSH2tsWwPfmfMZ2vS4/edit?tab=t.0",
       "activity": [
         {
@@ -434,9 +434,13 @@
           "ts": 1770982496688,
           "text": "Nishil addressed Pratik's comments \u2014 marked as edited.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771009392339,
+          "text": "Prathik confirmed: 'reviewed the copy, good to go, will be scheduled for publishing.' Blocker resolved after 3+ follow-ups today.",
+          "by": "Viktor (scan)"
         }
       ],
-      "waitingOn": "Pratik",
       "artStatus": "needs_art"
     }
   ],
@@ -488,7 +492,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1770995020472,
+  "updatedAt": 1771009392339,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -897,6 +901,55 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "Late evening scan (10 PM GST). Joel accepted bandwidth restructuring plan \u2014 may action item reassignments next week. Vaidik wrapping up d6 TTD. Monday ideas reminder posted. Silver still blocked on Prathik. No hub changes or pings \u2014 end of day."
+    },
+    {
+      "_id": "ci_20260213_19",
+      "date": "2026-02-13",
+      "hour": 19,
+      "ts": 1771009392339,
+      "entries": [
+        {
+          "person": "Prathik",
+          "summary": "Approved Silver article \u2014 'reviewed the copy, good to go, will be scheduled for publishing.' Persistent blocker resolved.",
+          "items_updated": [
+            "e_silver"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Prathik",
+          "summary": "Acknowledged Monday ideas reminder ('Okay, will do so').",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Said 'wrapping it up' on d6 DeFi yield TTD (due Feb 14) but not yet submitted.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Joel",
+          "summary": "Active late evening \u2014 accepted bandwidth restructuring plan, requested Monday ideas reminders. Winding down.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        }
+      ],
+      "hub_updates": [
+        {
+          "item_id": "e_silver",
+          "item_title": "Silver Article",
+          "field": "status",
+          "old_value": "review",
+          "new_value": "scheduled"
+        }
+      ],
+      "pings_sent": [],
+      "summary": "Silver article unblocked \u2014 Prathik approved after 3+ follow-ups. Status: review \u2192 scheduled. No writer pings (11 PM GST). Vaidik's d6 TTD still pending."
     }
   ],
   "teamBandwidth": {
