@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import { useItems, useMembers, createItem, updateItem, removeItem, updateStatus } from "../store";
-import { Plus, X, Filter, GripVertical, Palette } from "lucide-react";
+import type { ContentItem } from "../store";
+import { ItemDetailModal } from "../components/ItemDetailModal";
+import { Plus, X, Filter, GripVertical, Palette, ExternalLink, ArrowRightLeft, DollarSign } from "lucide-react";
 
 const STATUSES = ["pitch", "assigned", "drafting", "review", "copy_edit", "ready", "published"] as const;
 const STATUS_DOT: Record<string, string> = { pitch: "bg-gray-400", assigned: "bg-blue-400", drafting: "bg-amber-400", review: "bg-purple-400", copy_edit: "bg-pink-400", ready: "bg-teal-400", published: "bg-emerald-400" };
@@ -50,6 +52,7 @@ export function EditorialCalendar() {
   const [view, setView] = useState<"list" | "board">("list");
   const [modal, setModal] = useState<"add" | null>(null);
   const [editing, setEditing] = useState<any>(null);
+  const [detail, setDetail] = useState<ContentItem | null>(null);
   const [f, setF] = useState({ title: "", assignee: "", category: "organic", dueDate: "", notes: "", status: "pitch", artStatus: "none", artAssignee: "", artNotes: "", artDueDate: "" });
 
   // Drag & drop state
@@ -196,16 +199,33 @@ export function EditorialCalendar() {
               <th className="text-left px-3 py-2.5 font-medium">Writer</th>
               <th className="text-left px-3 py-2.5 font-medium">Art</th>
               <th className="text-left px-3 py-2.5 font-medium">Due</th>
+              <th className="text-left px-3 py-2.5 font-medium w-8"></th>
             </tr></thead>
             <tbody className="divide-y divide-gray-50">
               {sorted.map((i) => {
                 const cat = CATEGORIES.find((c) => c.id === i.category);
                 const overdue = isOverdue(i);
+                const payCls = i.paymentStatus === "paid" ? "text-emerald-500" : i.paymentStatus === "invoiced" ? "text-amber-500" : "text-gray-300";
                 return (
                   <tr key={i._id} onClick={() => setEditing({ ...i, dueDateStr: i.dueDate ? new Date(i.dueDate).toISOString().split("T")[0] : "", artDueDateStr: i.artDueDate ? new Date(i.artDueDate).toISOString().split("T")[0] : "" })}
                     className={`cursor-pointer hover:bg-gray-50 transition ${overdue ? "bg-red-50/50" : ""}`}>
-                    <td className="px-5 py-3 font-medium text-gray-900">{i.title}</td>
-                    <td className="px-3 py-3">{cat && <span className={`text-[11px] px-2 py-0.5 rounded-full border font-medium ${cat.cls}`}>{cat.label}</span>}</td>
+                    <td className="px-5 py-3">
+                      <div className="flex items-center gap-1.5">
+                        <span className="font-medium text-gray-900">{i.title}</span>
+                        {i.draftUrl && <a href={i.draftUrl} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-indigo-400 hover:text-indigo-600"><ExternalLink size={11} /></a>}
+                      </div>
+                      {i.waitingOn && (
+                        <span className="inline-flex items-center gap-0.5 text-[10px] text-amber-600 bg-amber-50 border border-amber-100 px-1.5 py-0.5 rounded font-medium mt-1">
+                          <ArrowRightLeft size={9} /> → {i.waitingOn}
+                        </span>
+                      )}
+                    </td>
+                    <td className="px-3 py-3">
+                      <div className="flex items-center gap-1">
+                        {cat && <span className={`text-[11px] px-2 py-0.5 rounded-full border font-medium ${cat.cls}`}>{cat.label}</span>}
+                        {(i.category === "sponsored" || i.category === "collaboration") && <DollarSign size={10} className={payCls} />}
+                      </div>
+                    </td>
                     <td className="px-3 py-3"><span className="flex items-center gap-1.5"><span className={`w-1.5 h-1.5 rounded-full ${STATUS_DOT[i.status]}`} /><span className="text-xs text-gray-600">{STATUS_LABEL[i.status]}</span></span></td>
                     <td className="px-3 py-3 text-gray-500 text-xs">{i.assignee || "—"}</td>
                     <td className="px-3 py-3">
@@ -218,6 +238,9 @@ export function EditorialCalendar() {
                     <td className={`px-3 py-3 text-xs ${overdue ? "text-red-500 font-medium" : "text-gray-400"}`}>
                       {i.dueDate ? relTime(i.dueDate) : "—"}
                     </td>
+                    <td className="px-3 py-1">
+                      <button onClick={(e) => { e.stopPropagation(); setDetail(i); }} className="text-[10px] text-gray-300 hover:text-indigo-500 transition" title="Details">•••</button>
+                    </td>
                   </tr>
                 );
               })}
@@ -227,6 +250,7 @@ export function EditorialCalendar() {
       )}
 
       {modal === "add" && <ModalForm title="New Article" onClose={() => setModal(null)} members={members} initial={f} onSave={(d: any) => { createItem({ type: "editorial", title: d.title, status: d.status, assignee: d.assignee || undefined, category: d.category, dueDate: d.dueDate ? new Date(d.dueDate).getTime() : undefined, notes: d.notes || undefined, artStatus: d.artStatus !== "none" ? d.artStatus : undefined, artAssignee: d.artAssignee || undefined, artNotes: d.artNotes || undefined, artDueDate: d.artDueDate ? new Date(d.artDueDate).getTime() : undefined }); setModal(null); }} />}
+      {detail && <ItemDetailModal item={detail} onClose={() => setDetail(null)} onDelete={() => { removeItem(detail._id); setDetail(null); }} />}
       {editing && <ModalForm title="Edit Article" onClose={() => setEditing(null)} members={members} initial={{ title: editing.title, assignee: editing.assignee || "", category: editing.category || "organic", dueDate: editing.dueDateStr || "", notes: editing.notes || "", status: editing.status, artStatus: editing.artStatus || "none", artAssignee: editing.artAssignee || "", artNotes: editing.artNotes || "", artDueDate: editing.artDueDateStr || "" }} onSave={(d: any) => { updateItem(editing._id, { title: d.title, status: d.status, assignee: d.assignee || undefined, category: d.category, dueDate: d.dueDate ? new Date(d.dueDate).getTime() : undefined, notes: d.notes || undefined, artStatus: d.artStatus !== "none" ? d.artStatus : undefined, artAssignee: d.artAssignee || undefined, artNotes: d.artNotes || undefined, artDueDate: d.artDueDate ? new Date(d.artDueDate).getTime() : undefined }); setEditing(null); }} onDelete={() => { removeItem(editing._id); setEditing(null); }} />}
     </div>
   );
