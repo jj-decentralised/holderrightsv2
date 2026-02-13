@@ -492,7 +492,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771009392339,
+  "updatedAt": 1771012969713,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -950,6 +950,24 @@
       ],
       "pings_sent": [],
       "summary": "Silver article unblocked \u2014 Prathik approved after 3+ follow-ups. Status: review \u2192 scheduled. No writer pings (11 PM GST). Vaidik's d6 TTD still pending."
+    },
+    {
+      "_id": "ci_20260213_20",
+      "date": "2026-02-13",
+      "hour": 20,
+      "ts": 1771012969713,
+      "entries": [
+        {
+          "person": "All",
+          "summary": "Zero Slack activity across all channels and DMs since 11 PM GST scan. Midnight \u2014 all team members offline.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "Quiet midnight scan. No activity since 11 PM GST. Vaidik's d6 TTD (due today) still not submitted \u2014 said 'wrapping up' at 7:37 PM. All writers offline."
     }
   ],
   "teamBandwidth": {
