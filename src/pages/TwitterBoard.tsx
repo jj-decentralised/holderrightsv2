@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import { useItems, useMembers, createItem, updateItem, updateStatus, removeItem } from "../store";
-import { Plus, X, AlignLeft, MessageSquare, Repeat2, GripVertical } from "lucide-react";
+import type { ContentItem } from "../store";
+import { ItemDetailModal } from "../components/ItemDetailModal";
+import { Plus, X, AlignLeft, MessageSquare, Repeat2, GripVertical, ExternalLink, ArrowRightLeft } from "lucide-react";
 
 const COLS = [
   { id: "pitch", label: "Pitch", dot: "bg-gray-400" },
@@ -20,6 +22,7 @@ export function TwitterBoard() {
   const members = useMembers();
   const [modal, setModal] = useState<"add" | null>(null);
   const [editing, setEditing] = useState<any>(null);
+  const [detail, setDetail] = useState<ContentItem | null>(null);
   const [f, setF] = useState({ title: "", assignee: "", format: "thread", notes: "" });
 
   // Drag and drop state
@@ -110,15 +113,24 @@ export function TwitterBoard() {
                         <GripVertical size={12} />
                       </span>
                       <div className="flex-1 min-w-0">
-                        <div className="text-sm font-medium text-gray-900">{item.title}</div>
+                        <div className="text-sm font-medium text-gray-900 flex items-center gap-1">
+                          {item.title}
+                          {item.draftUrl && <ExternalLink size={10} className="text-gray-300 shrink-0" />}
+                        </div>
                         <div className="flex items-center gap-2 mt-2 flex-wrap">
                           {item.format && FMT[item.format] && (
                             <span className="inline-flex items-center gap-1 text-[11px] text-gray-500 bg-gray-50 border border-gray-100 px-1.5 py-0.5 rounded">
                               {FMT[item.format].icon} {FMT[item.format].label}
                             </span>
                           )}
+                          {item.waitingOn && (
+                            <span className="inline-flex items-center gap-0.5 text-[10px] text-amber-600 bg-amber-50 border border-amber-100 px-1.5 py-0.5 rounded font-medium">
+                              <ArrowRightLeft size={9} /> {item.waitingOn}
+                            </span>
+                          )}
                           {item.assignee && <span className="text-[11px] text-gray-400">{item.assignee}</span>}
                         </div>
+                        <button onClick={(e) => { e.stopPropagation(); setDetail(item); }} className="text-[10px] text-gray-300 hover:text-indigo-500 mt-1 opacity-0 group-hover:opacity-100 transition">Details →</button>
                       </div>
                     </div>
                   </div>
@@ -145,6 +157,8 @@ export function TwitterBoard() {
           <Btn disabled={!f.title.trim()} onClick={() => { createItem({ type: "twitter", title: f.title.trim(), status: "pitch", assignee: f.assignee || undefined, format: f.format, notes: f.notes || undefined }); setF({ title: "", assignee: "", format: "thread", notes: "" }); setModal(null); }}>Add idea</Btn>
         </Modal>
       )}
+
+      {detail && <ItemDetailModal item={detail} onClose={() => setDetail(null)} onDelete={() => { removeItem(detail._id); setDetail(null); }} />}
 
       {editing && (
         <Modal title="Edit" onClose={() => setEditing(null)}>
