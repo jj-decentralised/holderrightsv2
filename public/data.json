@@ -844,6 +844,59 @@
       ],
       "pings_sent": [],
       "summary": "Virtuals Protocol tweet published live by Joel \u2014 bypassed Sid's stalled review. t5 status updated to published. Silver article still stuck on Prathik sign-off. All writers quiet (evening hours). No pings sent \u2014 past 6 PM GST."
+    },
+    {
+      "_id": "ci_20260213_22",
+      "date": "2026-02-13",
+      "hour": 22,
+      "ts": 1771005757688,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Active at 8-8:30 PM GST \u2014 reviewed Viktor's bandwidth restructuring analysis and said 'im on the updated plan' (suggests he'll action redistribution next week). Asked Viktor to remind writers about Monday ideas call. Quiet since ~8:30 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "At 7:37 PM GST responded to TTD check-in: 'Wrapping it up as we speak. Will send asap here.' d6 (DeFi yield strategies) due tomorrow \u2014 not yet submitted but actively working on it.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Prathik",
+          "summary": "Acknowledged Monday ideas reminder at 8:26 PM: 'Okay, will do so'. Still hasn't responded to Silver article sign-off requests (pending since ~4:30 PM GST).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No activity this window. Silver article (e_silver) still blocked on Prathik's sign-off. d7 (Stablecoin regulation TTD) due Feb 15.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity this window. Still has overdue items (e1, e5, e7, p1). Joel scheduled Monday 5 PM sync. No ping \u2014 past work hours.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Sid",
+          "summary": "Zero activity all day. Moot point on Virtuals (now published). No other pending items.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "Late evening scan (10 PM GST). Joel accepted bandwidth restructuring plan \u2014 may action item reassignments next week. Vaidik wrapping up d6 TTD. Monday ideas reminder posted. Silver still blocked on Prathik. No hub changes or pings \u2014 end of day."
     }
   ],
   "teamBandwidth": {
