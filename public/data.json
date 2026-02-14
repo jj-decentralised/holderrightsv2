@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "items": [
     {
       "_id": "t1",
@@ -537,7 +537,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771084933823,
+  "updatedAt": 1771088574270,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -1785,6 +1785,52 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "8 PM GST Saturday \u2014 quiet evening scan. Joel active on Substack newsletter strategy (182/200 subscribed, daily briefing proposed) \u2014 tooling, not content. Vaidik d6 overdue 8h, 3 pings unanswered, 24h+ since wrapping up. All other writers offline. No hub updates, no pings, no Joel brief."
+    },
+    {
+      "_id": "ci_20260214_21",
+      "date": "2026-02-14",
+      "hour": 21,
+      "ts": 1771088574270,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Last active at ~6:28 PM GST in Substack thread \u2014 discussed daily research briefing workflow (182/200 newsletters subscribed). Tooling/infrastructure, not content pipeline. Sunday plan: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Drift review 11:30-1 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Completely dark all day. d6 (DeFi yield TTD) overdue ~9h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 26+ hours since 'wrapping up' Friday evening. Past 6 PM = no more pings today.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity since ~5 PM call with Joel. Delivered revenue doc (e7). On zkSync finalization (e1). Sunday sync at 11 AM GST.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No activity. Saturday expected. d7 (Stablecoin TTD) due tomorrow Feb 15. e_silver scheduled for Saturday publishing.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Sid",
+          "summary": "Last seen earlier today (#goodreads comment). No response to Viktor's 6 PM update DM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "9 PM GST Saturday \u2014 quiet evening scan. Zero new activity since 6:28 PM GST. Joel last active on Substack tooling (daily briefing). Vaidik d6 overdue 9h, 3 pings unanswered, 26h+ since wrapping up. All writers offline. No hub updates, no pings, no Joel brief."
     }
   ],
   "teamBandwidth": {
