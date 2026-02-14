@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 40,
   "items": [
     {
       "_id": "t1",
@@ -1941,6 +1941,38 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "Midnight GST Sunday \u2014 quiet scan. Zero activity since 10 PM Saturday (Joel Drift thesis request). Vaidik d6 overdue 11.5h, 3 pings unanswered, 28.5h+ since wrapping up. Nishil d7 due today. Joel's Sunday fully blocked. No hub updates, no pings, no Joel brief."
+    },
+    {
+      "_id": "ci_20260214_21",
+      "date": "2026-02-14",
+      "hour": 1,
+      "ts": 1771102905447,
+      "entries": [
+        {
+          "person": "Vaidik",
+          "summary": "d6 (DeFi yield TTD) overdue ~12.5h. 3 DM pings (8 AM, noon, 4 PM Sat), zero response. 29.5+ hours since 'wrapping up' Friday evening. No public activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "d7 (Stablecoin regulation TTD) due today Feb 15. Still planned. No activity overnight.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Joel",
+          "summary": "Last active ~10 PM GST (Drift thesis request). Sunday fully blocked: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, sync 11 AM, Drift review 11:30-1 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "1 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 12.5h (3 pings unanswered). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     }
   ],
   "teamBandwidth": {
