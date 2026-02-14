@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "items": [
     {
       "_id": "t1",
@@ -537,7 +537,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771077881081,
+  "updatedAt": 1771081375692,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -1693,6 +1693,52 @@
       ],
       "pings_sent": [],
       "summary": "6 PM GST Saturday wrap-up. Joel completed zkSync bake-in (handed to Saurabh) and updated Drift doc (new version). Sunday morning fully blocked: hike + retainer + revenue stats + Drift review. Vaidik d6 overdue 5.5h, 3 pings unanswered, effectively done pinging for today."
+    },
+    {
+      "_id": "ci_20260214_15",
+      "date": "2026-02-14",
+      "hour": 15,
+      "ts": 1771081375692,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Active at ~6:24-6:28 PM GST on Substack setup thread (182/200 subscriptions done, planning daily research briefing workflow). Not content-status related. Earlier wrapped Saturday work: zkSync handed to Saurabh, Drift doc updated, Sunday fully planned (hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Drift review 11:30-1 PM).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue ~6.5h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 23+ hours since 'wrapping up.' Past 6 PM = no more pings today.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity since ~5 PM call with Joel. On zkSync finalization. Sunday sync at 11 AM GST.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No activity. Saturday expected. d7 (Stablecoin TTD) due tomorrow Feb 15.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Sid",
+          "summary": "No response yet to Viktor's end-of-day DM update (~6 PM). zkSync feedback already done earlier.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "7 PM GST Saturday \u2014 quiet evening scan. Joel wrapping up (Substack setup, not content). Vaidik d6 overdue 6.5h, 3 pings unanswered, effectively done for today. All other writers offline. No hub updates, no pings, no Joel brief."
     }
   ],
   "teamBandwidth": {
