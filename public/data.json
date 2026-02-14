@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "items": [
     {
       "_id": "t1",
@@ -116,12 +116,17 @@
       "dueDate": 1770194630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1770987826962,
+      "updatedAt": 1771056241597,
       "draftUrl": "https://docs.google.com/document/d/1m4F2A7h8-O5mliPJM527mPcENnyR8RpwEuYDJysTD9c/edit",
       "activity": [
         {
           "ts": 1770987826962,
           "text": "Joel shared Drift doc for fact-checking. Viktor corrected 13 factual errors and flagged 12+ items for review. Draft actively being worked on.",
+          "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1771056241597,
+          "text": "Joel listed Drift doc as top Saturday priority ('finish today'). Spent 11 AM refining arguments with Viktor \u2014 restructure suggested, math corrections identified. Still actively drafting.",
           "by": "Viktor (scan)"
         }
       ]
@@ -492,7 +497,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771045398335,
+  "updatedAt": 1771056241597,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -1209,6 +1214,70 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "11 AM GST Saturday \u2014 Joel very active (Drift doc review + Hyperdash retainer work with Viktor). Vaidik unresponsive to d6 ping, deadline in ~1.5h. No hub status changes. No pings (Vaidik 4h cooldown)."
+    },
+    {
+      "_id": "ci_20260214_12",
+      "date": "2026-02-14",
+      "hour": 12,
+      "ts": 1771056241597,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Created TODO tracker in group DM (Sid/Saurabh/Joel/Viktor): (1) Sid to give ZkSync doc feedback by 3PM, (2) Joel to finish Drift doc by 4PM, (3) Saurabh to send revenue article requirement by 4PM. Active agent threads handling each chase.",
+          "items_updated": [
+            "e4"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Still unresponsive. 16+ hours since 'wrapping up' d6, 4h since first ping. d6 due in ~40 min. Re-pinged at noon.",
+          "items_updated": [
+            "d6"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Sid",
+          "summary": "Silent but Joel assigned ZkSync doc review via group DM TODO. Chase set for 3:00 PM GST.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Silent but Joel assigned revenue article requirement via group DM TODO. Chase set for 4:00 PM GST.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Nishil",
+          "summary": "Quiet. d7 (Stablecoin regulation TTD) due tomorrow. e_silver scheduled for publishing today.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [
+        {
+          "item_id": "e4",
+          "item_title": "Drift Thesis",
+          "field": "activity",
+          "old_value": "drafting",
+          "new_value": "drafting (Joel aims to finish today, refining arguments with Viktor)"
+        }
+      ],
+      "pings_sent": [
+        {
+          "person": "Vaidik",
+          "reason": "d6 (DeFi yield TTD) due in ~40 min, 16h since 'wrapping up', no response to 8 AM ping (4h cooldown expired)",
+          "channel": "DM"
+        }
+      ],
+      "summary": "Joel created TODO tracker with 3 deadline-chases (Sid ZkSync 3PM, Joel Drift 4PM, Saurabh revenue 4PM). Vaidik re-pinged \u2014 d6 deadline imminent with no response. Active agent threads handling chasers."
     }
   ],
   "teamBandwidth": {
