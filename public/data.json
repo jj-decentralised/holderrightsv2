@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "items": [
     {
       "_id": "t1",
@@ -1170,6 +1170,45 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "Saturday 10 AM \u2014 Joel sharing reads in #goodreads. Vaidik still unresponsive to d6 ping (2h since 8 AM DM). No hub status changes. No pings (Vaidik 4h cooldown). Approaching d6 noon deadline."
+    },
+    {
+      "_id": "ci_20260214_11",
+      "date": "2026-02-14",
+      "hour": 11,
+      "ts": 1771052574292,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Listed Saturday to-dos: (1) finish Drift doc today, (2) revenue tracking product for Saurabh, (3) Hyperdash retainer 1-pager. Actively working with Viktor on Drift argument review and retainer breakdown.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "No response to 8 AM DM about d6 (DeFi yield TTD). Due at 12:43 PM GST. 15+ hours since 'wrapping up' message. 4h ping cooldown active until 12 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity. Saturday expected. Joel planning to give him revenue tracking product.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No activity. Saturday expected. Monday ideas not yet submitted.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "11 AM GST Saturday \u2014 Joel very active (Drift doc review + Hyperdash retainer work with Viktor). Vaidik unresponsive to d6 ping, deadline in ~1.5h. No hub status changes. No pings (Vaidik 4h cooldown)."
     }
   ],
   "teamBandwidth": {
