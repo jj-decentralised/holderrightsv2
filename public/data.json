@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "items": [
     {
       "_id": "t1",
@@ -492,7 +492,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771041787124,
+  "updatedAt": 1771045398335,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -1083,6 +1083,40 @@
         }
       ],
       "summary": "8 AM GST Saturday scan. Zero overnight activity. Pinged Vaidik about d6 due today \u2014 12+ hours since 'wrapping up'. e_silver scheduled for Saturday publishing."
+    },
+    {
+      "_id": "ci_20260214_09",
+      "date": "2026-02-14",
+      "hour": 9,
+      "ts": 1771045398335,
+      "entries": [
+        {
+          "person": "Thejaswini",
+          "summary": "Responded to Monday ideas call \u2014 added 2 story ideas on Asana (tasks 1213250701775890, 1213250701775896)",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Prathik",
+          "summary": "Shared 3 story ideas for next week: (1) Quants story on state of DATs, (2) Coinbase + Robinhood earnings results, (3) Crypto as base/superstructure + RWA",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "No response to 8 AM DM ping about d6 (DeFi yield TTD, due today ~12:43 PM GST). Said 'wrapping up' at 7:37 PM GST Friday. Pinged 1h ago, waiting.",
+          "items_updated": [
+            "d6"
+          ],
+          "source": "slack_scan",
+          "confidence": "medium"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "Saturday 9 AM \u2014 Thejaswini and Prathik submitted Monday ideas in #dco-ttd. Vaidik hasn't responded to d6 ping yet. No hub status changes."
     }
   ],
   "teamBandwidth": {
