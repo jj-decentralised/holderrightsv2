@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "items": [
     {
       "_id": "t1",
@@ -537,7 +537,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771088574270,
+  "updatedAt": 1771095722406,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -1849,6 +1849,52 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "10 PM GST Saturday \u2014 quiet scan. Joel briefly asked for Drift thesis/link (prepping for tomorrow). Vaidik d6 overdue ~10h, 3 pings unanswered. All writers offline."
+    },
+    {
+      "_id": "ci_20260214_23",
+      "date": "2026-02-14",
+      "hour": 23,
+      "ts": 1771095722406,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Last active at ~9:37 PM GST \u2014 requested Drift thesis summary + doc link in DM (prepping for Sunday 11:30 AM review). Offline since.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Completely dark all day Saturday. d6 (DeFi yield TTD) overdue ~10.5h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 27.5+ hours since 'wrapping up' Friday evening.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity since ~5 PM call with Joel. On zkSync finalization (e1). Sunday sync at 11 AM GST.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No Saturday activity. d7 (Stablecoin TTD) due tomorrow Feb 15. e_silver scheduled for Saturday publishing. Monday ideas not yet submitted.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Sid",
+          "summary": "No activity since #goodreads comment earlier today. No response to Viktor's 6 PM update DM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "11 PM GST Saturday \u2014 quiet scan. Zero activity since 9:37 PM (Joel Drift thesis request). Vaidik d6 overdue 10.5h, 3 pings unanswered, 27.5h+ since wrapping up. All writers offline. No hub updates, no pings, no Joel brief."
     }
   ],
   "teamBandwidth": {
