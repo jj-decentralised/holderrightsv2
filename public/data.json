@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "items": [
     {
       "_id": "t1",
@@ -492,7 +492,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771012969713,
+  "updatedAt": 1771041787124,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -1038,6 +1038,51 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "7 AM GST Saturday \u2014 zero activity across all channels and DMs since 6 AM scan. Writers offline. Approaching work hours window."
+    },
+    {
+      "_id": "ci_20260214_08",
+      "date": "2026-02-14",
+      "hour": 8,
+      "ts": 1771041787124,
+      "entries": [
+        {
+          "person": "Vaidik",
+          "summary": "Zero activity since 7:37 PM GST Friday when he said 'wrapping up' d6 (DeFi yield strategies TTD, due today 12:43 PM GST). 12+ hours of silence. Ping sent.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No activity since yesterday. d7 (Stablecoin regulation TTD) due tomorrow Feb 15. e_silver scheduled for publishing today (Prathik approved). No ping needed \u2014 not overdue yet.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity since yesterday morning. Multiple overdue items (e1, e5, e7). Joel has Monday sync planned. No ping \u2014 Joel handling directly.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Joel",
+          "summary": "No activity since ~8:30 PM GST Friday. Expected \u2014 Saturday morning.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [
+        {
+          "person": "Vaidik",
+          "reason": "d6 (DeFi yield TTD) due today, 12+ hours since 'wrapping up', zero public activity overnight",
+          "channel": "DM"
+        }
+      ],
+      "summary": "8 AM GST Saturday scan. Zero overnight activity. Pinged Vaidik about d6 due today \u2014 12+ hours since 'wrapping up'. e_silver scheduled for Saturday publishing."
     }
   ],
   "teamBandwidth": {
