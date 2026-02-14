@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "items": [
     {
       "_id": "t1",
@@ -1345,6 +1345,66 @@
       ],
       "pings_sent": [],
       "summary": "Sid completed zkSync feedback (e1 progress). Vaidik d6 now overdue, zero response to 2 pings. Joel Drift/Hyperdash work active via other thread. Chase threads tracking 3 PM/4 PM/5 PM deadlines."
+    },
+    {
+      "_id": "ci_20260214_10",
+      "date": "2026-02-14",
+      "hour": 10,
+      "ts": 1771063398921,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Active earlier today \u2014 shared Drift TODO list, Hyperdash retainer work, set up chase tracker (3-5 PM deadlines). No new messages in last hour. Drift doc due by 4 PM GST, zkSync bake-in by 5 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Sid",
+          "summary": "Confirmed zkSync feedback shared 'on core' at ~1 PM GST. Chatted with Viktor in group DM. Set up dork/reminder rule for missed deadlines. No activity in last hour.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "d6 (DeFi yield TTD) now ~1.5 hours overdue. Zero response to 2 DM pings (8 AM + noon). No public channel activity since yesterday evening.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Revenue article requirement sync with Joel due 4 PM GST. No public channel activity. Being tracked via group DM chase thread.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "Silver article scheduled for Saturday publishing. No public channel activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Thejaswini",
+          "summary": "Submitted 2 Monday story ideas on Asana earlier today (~9 AM GST). No activity in last 2 hours.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Prathik",
+          "summary": "Submitted 3 Monday story ideas on Asana earlier today (~9 AM GST). No activity in last 2 hours.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "2 PM GST Saturday \u2014 quiet hour. Vaidik d6 overdue ~1.5h, no response to 2 pings (4h cooldown blocks re-ping until 4 PM). Chase threads tracking Joel Drift (4 PM), Saurabh revenue (4 PM), Joel zkSync bake-in (5 PM). Silver scheduled."
     }
   ],
   "teamBandwidth": {
