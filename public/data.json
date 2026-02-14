@@ -1,5 +1,5 @@
 {
-  "version": 31,
+  "version": 32,
   "items": [
     {
       "_id": "t1",
@@ -82,12 +82,17 @@
       "dueDate": 1768898630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771059840769,
+      "updatedAt": 1771074292363,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771059840769,
           "text": "Sid confirmed he shared zkSync feedback 'on core'. Joel to bake feedback in by 5 PM GST, then Saurabh finalizes. Active chase thread tracking deadlines.",
+          "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1771074292363,
+          "text": "Joel deferred zkSync bake-in (5 PM deadline missed). Will sync with Saurabh tomorrow (Sunday) on revenue doc + zkSync. Currently on call with Saurabh. Also: remind to discuss JUP + Aave proposals on tomorrow's call.",
           "by": "Viktor (scan)"
         }
       ]
@@ -123,7 +128,7 @@
       "dueDate": 1770194630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771070598420,
+      "updatedAt": 1771074292363,
       "draftUrl": "https://docs.google.com/document/d/1m4F2A7h8-O5mliPJM527mPcENnyR8RpwEuYDJysTD9c/edit",
       "activity": [
         {
@@ -139,6 +144,11 @@
         {
           "ts": 1771070598420,
           "text": "Joel cross-referencing Drift doc claims at 4 PM GST, needs 30 more min. Chase thread tracking 4 PM deadline \u2014 Joel acknowledged delay. Saurabh missed revenue req (4 PM), chase thread handling with dork-label + 15-min reminders.",
+          "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1771074292363,
+          "text": "Viktor completed full Drift numerical review (5 math errors + 5 items to verify, added to doc). Joel took another round at Drift (~4:48 PM). Then shared a new doc (13xpMBH...) at 5 PM for flow/accuracy check \u2014 possibly final version. Joel + Saurabh syncing on call.",
           "by": "Viktor (scan)"
         }
       ]
@@ -184,8 +194,16 @@
       "dueDate": 1770885830398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1770982471255,
-      "artStatus": "needs_art"
+      "updatedAt": 1771074292363,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771074292363,
+          "text": "Saurabh delivered revenue article requirement doc at 4:19 PM GST. Joel received, acknowledged. Joel + Saurabh on a sync call at 5 PM. Doc: https://docs.google.com/document/d/12yt3nJdnFgcQ_C5zrxE5WBcZkz4IN9AZ0n6P6ZK2bIE/edit",
+          "by": "Viktor (scan)"
+        }
+      ],
+      "draftUrl": "https://docs.google.com/document/d/12yt3nJdnFgcQ_C5zrxE5WBcZkz4IN9AZ0n6P6ZK2bIE/edit?tab=t.0"
     },
     {
       "_id": "e8",
@@ -1518,6 +1536,87 @@
         }
       ],
       "summary": "4 PM GST Saturday \u2014 Joel actively on Drift doc (30 min past deadline). Saurabh missed 4 PM revenue req deadline (chase thread handling). Vaidik re-pinged (3rd, d6 overdue 3.3h). Sid done. Nishil quiet."
+    },
+    {
+      "_id": "ci_20260214_17",
+      "date": "2026-02-14",
+      "hour": 17,
+      "ts": 1771074292363,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Very active: completed end-of-day summary in MPDM. Received Saurabh's revenue doc. Took another round at Drift doc. Shared new doc (13xpMBH...) at 5PM for flow/accuracy review. Currently on call with Saurabh. Substack subscription project in progress (9 so far).",
+          "items_updated": [
+            "e4",
+            "e7",
+            "e1"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Delivered revenue article requirement doc at 4:19 PM (chased from 4 PM deadline, ~19 min late). Dork status revoked. Currently on call with Joel syncing on revenue + zkSync.",
+          "items_updated": [
+            "e7"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue 4.5+ hours. 3 pings sent (8 AM, noon, 4 PM), zero response. 21+ hours since 'wrapping up'.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Sid",
+          "summary": "Quiet since 1 PM (zkSync feedback done earlier). No new activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Nishil",
+          "summary": "Quiet \u2014 Saturday. d7 (Stablecoin regulation TTD) due tomorrow.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [
+        {
+          "item_id": "e7",
+          "item_title": "Crypto revenue analysis",
+          "field": "draftUrl",
+          "old_value": null,
+          "new_value": "added revenue doc URL"
+        },
+        {
+          "item_id": "e7",
+          "item_title": "Crypto revenue analysis",
+          "field": "activity",
+          "old_value": "none",
+          "new_value": "Saurabh delivered revenue req doc"
+        },
+        {
+          "item_id": "e4",
+          "item_title": "Drift Thesis",
+          "field": "activity",
+          "old_value": "4PM cross-referencing",
+          "new_value": "numerical review done + new doc shared at 5PM"
+        },
+        {
+          "item_id": "e1",
+          "item_title": "ZkSync Thesis",
+          "field": "activity",
+          "old_value": "Sid feedback done",
+          "new_value": "Joel deferred bake-in to tomorrow sync with Saurabh"
+        }
+      ],
+      "pings_sent": [],
+      "summary": "Productive 5 PM scan: Saurabh delivered revenue doc, Joel wrapping Drift + on call with Saurabh, zkSync bake-in deferred to Sunday sync. Vaidik still dark (3 pings, 0 response, d6 4.5h overdue)."
     }
   ],
   "teamBandwidth": {
