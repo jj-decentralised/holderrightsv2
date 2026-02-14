@@ -504,7 +504,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771056241597,
+  "updatedAt": 1771067031338,
   "updatedBy": "viktor",
   "checkins": [
     {
@@ -1405,6 +1405,52 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "2 PM GST Saturday \u2014 quiet hour. Vaidik d6 overdue ~1.5h, no response to 2 pings (4h cooldown blocks re-ping until 4 PM). Chase threads tracking Joel Drift (4 PM), Saurabh revenue (4 PM), Joel zkSync bake-in (5 PM). Silver scheduled."
+    },
+    {
+      "_id": "ci_20260214_15",
+      "date": "2026-02-14",
+      "hour": 15,
+      "ts": 1771067031338,
+      "entries": [
+        {
+          "person": "Sid",
+          "summary": "Active in #goodreads \u2014 commented 'what a fckng amazing read' on Joel's Substack share at 3:02 PM GST. zkSync feedback already provided earlier today.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Still unresponsive. d6 (DeFi yield TTD) overdue by ~2.3 hours. 2 DM pings (8 AM + noon) unanswered. 19+ hours since 'wrapping up'. Next re-ping eligible at 4 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Joel",
+          "summary": "No new activity since noon. Chase threads tracking his 4 PM Drift deadline and 5 PM zkSync bake-in.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Silent all day Saturday. Chase thread tracking his 4 PM revenue article requirement deadline.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Nishil",
+          "summary": "Silent all day Saturday. d7 (Stablecoin regulation TTD) due tomorrow. Monday ideas not yet submitted.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "3 PM GST Saturday \u2014 quiet scan. Only new activity: Sid commented in #goodreads. Viktor chase thread posted 3 PM check-in (Sid zkSync done). Vaidik d6 overdue 2.3h, 2 pings unanswered. 4 PM deadlines approaching for Joel (Drift) and Saurabh (revenue req). No hub changes, no pings, no Joel brief."
     }
   ],
   "teamBandwidth": {
