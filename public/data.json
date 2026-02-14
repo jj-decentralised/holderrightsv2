@@ -1,5 +1,5 @@
 {
-  "version": 41,
+  "version": 42,
   "items": [
     {
       "_id": "t1",
@@ -2005,6 +2005,45 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "2 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 13.5h (3 pings unanswered, 30.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+    },
+    {
+      "_id": "ci_20260215_03",
+      "date": "2026-02-15",
+      "hour": 3,
+      "ts": 1771110119725,
+      "entries": [
+        {
+          "person": "Vaidik",
+          "summary": "d6 (DeFi yield TTD) overdue ~14.5h. 3 DM pings (8 AM, noon, 4 PM Sat), zero response. 31.5+ hours since 'wrapping up' Friday evening. No public activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "d7 (Stablecoin regulation TTD) due today Feb 15. Still planned. No activity overnight.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Joel",
+          "summary": "Last active ~10 PM GST Sat (Drift thesis request). Sunday fully blocked: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Saurabh sync 11 AM, Drift review 11:30-1 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Offline. e1 (ZkSync) handed to him for finalization \u2014 sync with Joel at 11 AM GST Sunday. e7 (revenue) doc delivered Saturday.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "3 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 14.5h (3 pings unanswered, 31.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     }
   ],
   "teamBandwidth": {
