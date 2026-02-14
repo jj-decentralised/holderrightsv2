@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 29,
   "items": [
     {
       "_id": "t1",
@@ -82,8 +82,15 @@
       "dueDate": 1768898630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1770982471255,
-      "artStatus": "needs_art"
+      "updatedAt": 1771059840769,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771059840769,
+          "text": "Sid confirmed he shared zkSync feedback 'on core'. Joel to bake feedback in by 5 PM GST, then Saurabh finalizes. Active chase thread tracking deadlines.",
+          "by": "Viktor (scan)"
+        }
+      ]
     },
     {
       "_id": "e2",
@@ -1278,6 +1285,66 @@
         }
       ],
       "summary": "Joel created TODO tracker with 3 deadline-chases (Sid ZkSync 3PM, Joel Drift 4PM, Saurabh revenue 4PM). Vaidik re-pinged \u2014 d6 deadline imminent with no response. Active agent threads handling chasers."
+    },
+    {
+      "_id": "ci_20260214_13",
+      "date": "2026-02-14",
+      "hour": 13,
+      "ts": 1771059840769,
+      "entries": [
+        {
+          "person": "Sid",
+          "summary": "Confirmed zkSync doc feedback already shared on core. Added new tasks: Joel to bake feedback by 5 PM GST, Saurabh to finalize after. Active in group DM banter with Viktor.",
+          "items_updated": [
+            "e1"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Zero response to 8 AM and noon DMs about d6 (DeFi yield TTD). 17+ hours since 'wrapping up'. d6 now officially overdue (~20 min past deadline).",
+          "items_updated": [
+            "d6"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Joel",
+          "summary": "Active earlier (10-11 AM) on Drift doc argument review + Hyperdash retainer via separate thread. Created TODO tracker at noon. No new activity since.",
+          "items_updated": [
+            "e4"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity. Awaiting Joel's zkSync feedback incorporation + revenue article sync (4 PM GST deadline in group DM).",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No activity. d7 (Stablecoin regulation TTD) due tomorrow. Monday ideas not yet submitted.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [
+        {
+          "item_id": "e1",
+          "item_title": "ZkSync Thesis",
+          "field": "activity",
+          "old_value": "no Sid feedback logged",
+          "new_value": "Sid feedback confirmed shared on core"
+        }
+      ],
+      "pings_sent": [],
+      "summary": "Sid completed zkSync feedback (e1 progress). Vaidik d6 now overdue, zero response to 2 pings. Joel Drift/Hyperdash work active via other thread. Chase threads tracking 3 PM/4 PM/5 PM deadlines."
     }
   ],
   "teamBandwidth": {
