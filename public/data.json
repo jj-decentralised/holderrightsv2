@@ -1117,6 +1117,59 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "Saturday 9 AM \u2014 Thejaswini and Prathik submitted Monday ideas in #dco-ttd. Vaidik hasn't responded to d6 ping yet. No hub status changes."
+    },
+    {
+      "_id": "ci_20260214_06",
+      "date": "2026-02-14",
+      "hour": 6,
+      "ts": 1771048942397,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Shared 2 Substack reading links in #goodreads (~9:09-9:12 AM GST). Saturday morning browsing \u2014 not content-status related.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Thejaswini",
+          "summary": "Submitted 2 Monday ideas via Asana links in #dco-ttd (captured in prior scan). Active Saturday morning.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Prathik",
+          "summary": "Submitted 3 Monday ideas in #dco-ttd (captured in prior scan). Active Saturday morning.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "No response to 8 AM DM about d6 (DeFi yield TTD, due today ~12:43 PM GST). 14+ hours since said 'wrapping up'. Zero public activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "No activity since Friday. Joel scheduled Monday sync.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No Saturday activity yet. d7 (Stablecoin TTD) due tomorrow (Feb 15). Silver article scheduled.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "Saturday 10 AM \u2014 Joel sharing reads in #goodreads. Vaidik still unresponsive to d6 ping (2h since 8 AM DM). No hub status changes. No pings (Vaidik 4h cooldown). Approaching d6 noon deadline."
     }
   ],
   "teamBandwidth": {
