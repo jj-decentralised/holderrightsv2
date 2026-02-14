@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 31,
   "items": [
     {
       "_id": "t1",
@@ -123,7 +123,7 @@
       "dueDate": 1770194630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771056241597,
+      "updatedAt": 1771070598420,
       "draftUrl": "https://docs.google.com/document/d/1m4F2A7h8-O5mliPJM527mPcENnyR8RpwEuYDJysTD9c/edit",
       "activity": [
         {
@@ -134,6 +134,11 @@
         {
           "ts": 1771056241597,
           "text": "Joel listed Drift doc as top Saturday priority ('finish today'). Spent 11 AM refining arguments with Viktor \u2014 restructure suggested, math corrections identified. Still actively drafting.",
+          "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1771070598420,
+          "text": "Joel cross-referencing Drift doc claims at 4 PM GST, needs 30 more min. Chase thread tracking 4 PM deadline \u2014 Joel acknowledged delay. Saurabh missed revenue req (4 PM), chase thread handling with dork-label + 15-min reminders.",
           "by": "Viktor (scan)"
         }
       ]
@@ -1451,6 +1456,68 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "3 PM GST Saturday \u2014 quiet scan. Only new activity: Sid commented in #goodreads. Viktor chase thread posted 3 PM check-in (Sid zkSync done). Vaidik d6 overdue 2.3h, 2 pings unanswered. 4 PM deadlines approaching for Joel (Drift) and Saurabh (revenue req). No hub changes, no pings, no Joel brief."
+    },
+    {
+      "_id": "ci_20260214_12",
+      "date": "2026-02-14",
+      "hour": 12,
+      "ts": 1771070598420,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Actively cross-referencing Drift doc claims (~4 PM GST). Needs 30 more min past 4 PM deadline \u2014 shared progress in MPDM. Also setting up Substack newsletter subscriptions (non-content). Very active all afternoon.",
+          "items_updated": [
+            "e4"
+          ],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Active in MPDM (joked about rules at 3:30 PM) but MISSED 4 PM revenue article requirement deadline. Chase thread called him a dork + started 15-min reminder pings. No actual revenue req submitted yet.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Sid",
+          "summary": "Active in MPDM and #goodreads. zkSync feedback done. Enjoying the dork/chase dynamic. No content work needed from him now.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Still MIA \u2014 d6 (DeFi yield TTD) overdue 3.3h. Zero response to 2 DM pings (8 AM + noon). 20+ hours since 'wrapping up'. 4h cooldown expired \u2014 re-pinged (3rd ping). Zero public channel activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "No activity. d7 (Stablecoin regulation TTD) due tomorrow. Monday ideas not yet submitted. Saturday expected quiet.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [
+        {
+          "item_id": "e4",
+          "item_title": "Drift Thesis",
+          "field": "activity",
+          "old_value": null,
+          "new_value": "Joel cross-referencing claims, 30 min past 4 PM deadline"
+        }
+      ],
+      "pings_sent": [
+        {
+          "person": "Vaidik",
+          "reason": "d6 overdue 3.3h, 4h cooldown expired (noon ping), zero response to 2 pings, zero public activity",
+          "channel": "DM"
+        }
+      ],
+      "summary": "4 PM GST Saturday \u2014 Joel actively on Drift doc (30 min past deadline). Saurabh missed 4 PM revenue req deadline (chase thread handling). Vaidik re-pinged (3rd, d6 overdue 3.3h). Sid done. Nishil quiet."
     }
   ],
   "teamBandwidth": {
