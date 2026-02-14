@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "items": [
     {
       "_id": "t1",
@@ -1028,6 +1028,16 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "6 AM GST Saturday \u2014 zero activity across all channels and DMs since 5 AM scan. All writers offline. No hub updates, no pings (outside hours)."
+    },
+    {
+      "_id": "ci_20260214_03",
+      "date": "2026-02-14",
+      "hour": 3,
+      "ts": 1771038122385,
+      "entries": [],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "7 AM GST Saturday \u2014 zero activity across all channels and DMs since 6 AM scan. Writers offline. Approaching work hours window."
     }
   ],
   "teamBandwidth": {
