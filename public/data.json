@@ -1,5 +1,5 @@
 {
-  "version": 47,
+  "version": 48,
   "items": [
     {
       "_id": "t1",
@@ -2225,6 +2225,58 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "8 AM GST Sunday \u2014 zero new activity since 7 AM scan. Vaidik d6 overdue ~19.5h (3 pings unanswered, 36.5h since wrapping up \u2014 not re-pinging). Nishil d7 due today. Joel Sunday fully blocked (hike \u2192 retainer \u2192 revenue \u2192 Saurabh sync \u2192 Drift). All writers offline."
+    },
+    {
+      "_id": "ci_20260215_09",
+      "date": "2026-02-15",
+      "hour": 9,
+      "ts": 1771131600000,
+      "entries": [
+        {
+          "person": "Prathik",
+          "summary": "Active in #goodreads \u2014 shared Scott Galloway 'Role Models' PDF, chatted with Joel about podcasts/books. Not content-pipeline work.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Joel",
+          "summary": "Active 8:31-8:46 AM GST. Commented on goodreads, asked Viktor for X signup (CAPTCHA blocked) + revenue doc (provided). Executing Sunday plan \u2014 revenue stats block started.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "Silent. d6 overdue ~20h (3 pings, 0 response, 37h since 'wrapping up'). Not re-pinging \u2014 Joel will need to handle directly.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "Silent 44h. d7 (Stablecoin regulation TTD) due in ~3.7h (12:43 PM GST), still 'planned'. Pinging now.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Silent this morning. Joel + Saurabh sync at 11 AM GST today for zkSync + revenue finalization.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [
+        {
+          "person": "Nishil",
+          "reason": "d7 (Stablecoin regulation TTD) due in 3.7h, status still 'planned', 44h since last activity",
+          "channel": "DM"
+        }
+      ],
+      "summary": "9 AM GST Sunday \u2014 Prathik + Joel active in goodreads. Joel executing Sunday plan (revenue stats). Nishil pinged about d7 due in 3.7h (still planned, 44h silent). Vaidik d6 overdue 20h, 3 pings unanswered \u2014 not re-pinging."
     }
   ],
   "teamBandwidth": {
