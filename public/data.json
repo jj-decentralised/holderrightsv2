@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 46,
   "items": [
     {
       "_id": "t1",
@@ -2140,6 +2140,45 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "6 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue ~17.5h (3 pings unanswered, 34.5+h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+    },
+    {
+      "_id": "ci_20260215_07",
+      "date": "2026-02-15",
+      "hour": 7,
+      "ts": 1771124512872,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Posted Charlie Munger speech link in #goodreads at ~2 AM GST, asked Viktor to summarize. Handled by separate agent thread. Sunday fully blocked: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Saurabh sync 11 AM, Drift review 11:30-1 PM.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "d6 (DeFi yield TTD) overdue ~18.5h. 3 DM pings (8 AM, noon, 4 PM Sat), zero response. ~35.5 hours since 'wrapping up' Friday evening. No public activity.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "d7 (Stablecoin regulation TTD) due today Feb 15. No activity yet. Expected to appear during Sunday work hours.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Offline. e1 (ZkSync) finalization pending \u2014 syncing with Joel at 11 AM GST. e7 (revenue) doc delivered Saturday.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "7 AM GST Sunday \u2014 Joel posted in #goodreads at ~2 AM (Munger speech, handled by separate thread). Vaidik d6 overdue ~18.5h (3 pings unanswered, 35.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     }
   ],
   "teamBandwidth": {
