@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "items": [
     {
       "_id": "t1",
@@ -2179,6 +2179,52 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "7 AM GST Sunday \u2014 Joel posted in #goodreads at ~2 AM (Munger speech, handled by separate thread). Vaidik d6 overdue ~18.5h (3 pings unanswered, 35.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+    },
+    {
+      "_id": "ci_20260215_08",
+      "date": "2026-02-15",
+      "hour": 8,
+      "ts": 1771128145896,
+      "entries": [
+        {
+          "person": "Joel",
+          "summary": "Sunday fully blocked: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Saurabh sync 11 AM, Drift review 11:30-1 PM. Posted Munger speech in #goodreads ~2 AM (handled by separate thread). No new messages since.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Vaidik",
+          "summary": "d6 (DeFi yield TTD) overdue ~19.5h. 3 DM pings (8 AM, noon, 4 PM Sat), zero response. ~36.5 hours since 'wrapping up' Friday evening. No public activity. Not re-pinging \u2014 3 unanswered is enough, further pings unlikely to help.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        },
+        {
+          "person": "Nishil",
+          "summary": "d7 (Stablecoin regulation TTD) due today Feb 15. No activity yet. 8 AM GST \u2014 may appear later in the day.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Saurabh",
+          "summary": "Offline. Joel + Saurabh sync at 11 AM GST today \u2014 finalizing e1 (ZkSync) + revenue stats. e7 (revenue) doc delivered Saturday.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "medium"
+        },
+        {
+          "person": "Sid",
+          "summary": "Offline. No messages since yesterday. Viktor asked about Sunday needs yesterday evening \u2014 no response yet.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "low"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "8 AM GST Sunday \u2014 zero new activity since 7 AM scan. Vaidik d6 overdue ~19.5h (3 pings unanswered, 36.5h since wrapping up \u2014 not re-pinging). Nishil d7 due today. Joel Sunday fully blocked (hike \u2192 retainer \u2192 revenue \u2192 Saurabh sync \u2192 Drift). All writers offline."
     }
   ],
   "teamBandwidth": {
