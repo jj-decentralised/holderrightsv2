@@ -1,5 +1,5 @@
 {
-  "version": 42,
+  "version": 43,
   "items": [
     {
       "_id": "t1",
@@ -2044,6 +2044,24 @@
       "hub_updates": [],
       "pings_sent": [],
       "summary": "3 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 14.5h (3 pings unanswered, 31.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+    },
+    {
+      "_id": "ci_20260215_04",
+      "date": "2026-02-15",
+      "hour": 4,
+      "ts": 1771113687146,
+      "entries": [
+        {
+          "person": "all_writers",
+          "summary": "Zero activity across all channels and DMs. 4 AM GST Sunday \u2014 all writers offline as expected.",
+          "items_updated": [],
+          "source": "slack_scan",
+          "confidence": "high"
+        }
+      ],
+      "hub_updates": [],
+      "pings_sent": [],
+      "summary": "Scan #36: 4 AM GST Sunday \u2014 zero activity. Vaidik d6 overdue ~15.5h (3 pings, 0 response, 32.5+h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     }
   ],
   "teamBandwidth": {
