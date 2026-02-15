@@ -1,5 +1,5 @@
 {
-  "version": 48,
+  "version": 49,
   "items": [
     {
       "_id": "t1",
@@ -487,6 +487,22 @@
         }
       ],
       "artStatus": "needs_art"
+    },
+    {
+      "_id": "e15",
+      "type": "editorial",
+      "title": "Enterprise Ethereum Foundation",
+      "status": "pitch",
+      "createdAt": 1771172119667,
+      "updatedAt": 1771172119667,
+      "notes": "Potential write-up topic. Added by Joel. Target: exercise around Wednesday Feb 18.",
+      "activity": [
+        {
+          "ts": 1771172119667,
+          "text": "Joel flagged Enterprise Ethereum Foundation as a potential write-up topic. Target timing: around Wednesday.",
+          "by": "Joel (via Viktor)"
+        }
+      ]
     }
   ],
   "members": [
