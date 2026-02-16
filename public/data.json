@@ -1,5 +1,5 @@
 {
-  "version": 50,
+  "version": 51,
   "items": [
     {
       "_id": "t1",
@@ -506,6 +506,131 @@
           "ts": 1771173737957,
           "text": "Joel: no need to chase now, check in mid-week. Added as mid-week reminder.",
           "by": "Joel (via Viktor)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_mon",
+      "type": "ttd",
+      "title": "The book",
+      "status": "drafting",
+      "assignee": "Thejaswini",
+      "dueDate": "2026-02-16",
+      "createdAt": 1771235032294,
+      "updatedAt": 1771235032294,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771235032294,
+          "text": "Added from ideas call. Art brief requested from TJ.",
+          "by": "Viktor"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_tue",
+      "type": "ttd",
+      "title": "Quant story on DAOs",
+      "status": "drafting",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-17",
+      "createdAt": 1771235032294,
+      "updatedAt": 1771235032294,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771235032294,
+          "text": "Added from ideas call. Art brief requested from Prathik.",
+          "by": "Viktor"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_wed",
+      "type": "ttd",
+      "title": "Tokenized gold market \u2014 Tether vs Paxos",
+      "status": "planned",
+      "assignee": "Thejaswini",
+      "dueDate": "2026-02-18",
+      "createdAt": 1771235032294,
+      "updatedAt": 1771235032294,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771235032294,
+          "text": "Added from ideas call. Art brief requested from TJ.",
+          "by": "Viktor"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_thu",
+      "type": "ttd",
+      "title": "Superstructure + RWA \u2014 BlackRock \u00d7 Uniswap",
+      "status": "planned",
+      "assignee": "Prathik, Thejaswini",
+      "dueDate": "2026-02-19",
+      "createdAt": 1771235032294,
+      "updatedAt": 1771235032294,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771235032294,
+          "text": "Added from ideas call. Art brief requested from Prathik & TJ.",
+          "by": "Viktor"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_fri",
+      "type": "ttd",
+      "title": "Coinbase + Robinhood blend",
+      "status": "planned",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-20",
+      "createdAt": 1771235032294,
+      "updatedAt": 1771235032294,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771235032294,
+          "text": "Added from ideas call \u2014 blend of earnings shifts + trend positioning.",
+          "by": "Viktor"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_sat",
+      "type": "ttd",
+      "title": "Saturday article \u2014 TBD (Nishil pitching new idea)",
+      "status": "pitch",
+      "assignee": "Nishil",
+      "dueDate": "2026-02-21",
+      "createdAt": 1771235032294,
+      "updatedAt": 1771235032294,
+      "activity": [
+        {
+          "ts": 1771235032294,
+          "text": "Added from ideas call. Earlier pitches (enterprise chain era, off-chain yield) rejected. New idea needed today.",
+          "by": "Viktor"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_sun",
+      "type": "ttd",
+      "title": "Reinsurance & protection markets",
+      "status": "planned",
+      "assignee": "Vaidik",
+      "dueDate": "2026-02-22",
+      "createdAt": 1771235032294,
+      "updatedAt": 1771235032294,
+      "artStatus": "needs_art",
+      "activity": [
+        {
+          "ts": 1771235032294,
+          "text": "Added from ideas call. Continues Vaidik's previous work on this topic. Art brief requested.",
+          "by": "Viktor"
         }
       ]
     }
