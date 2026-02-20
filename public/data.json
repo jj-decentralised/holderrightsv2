@@ -1,5 +1,5 @@
 {
-  "version": 53,
+  "version": 54,
   "items": [
     {
       "_id": "t1",
@@ -35,10 +35,20 @@
       "_id": "t4",
       "type": "twitter",
       "title": "What if MetaDAO went permissionless",
-      "status": "pitch",
+      "status": "assigned",
       "format": "thread",
       "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
+      "updatedAt": 1771593240000,
+      "assignee": "Joel, Nishil",
+      "dueDate": 1771977600000,
+      "notes": "Joel + Nishil collab. Due Wednesday Feb 25.",
+      "activity": [
+        {
+          "ts": 1771593240000,
+          "text": "Joel assigned to himself + Nishil. Due Wednesday Feb 25.",
+          "by": "Joel (via Viktor)"
+        }
+      ]
     },
     {
       "_id": "t5",
@@ -719,6 +729,62 @@
           "by": "Joel (via Viktor)"
         }
       ]
+    },
+    {
+      "_id": "t6",
+      "type": "twitter",
+      "title": "A note on Perps",
+      "status": "assigned",
+      "assignee": "Joel",
+      "format": "note",
+      "dueDate": 1771804800000,
+      "createdAt": 1771593240000,
+      "updatedAt": 1771593240000,
+      "activity": [
+        {
+          "ts": 1771593240000,
+          "text": "Added by Joel. Due Monday Feb 23.",
+          "by": "Joel (via Viktor)"
+        }
+      ]
+    },
+    {
+      "_id": "t7",
+      "type": "twitter",
+      "title": "Revenue Breakdown tweet",
+      "status": "assigned",
+      "assignee": "Joel",
+      "format": "tweet",
+      "dueDate": 1771891200000,
+      "notes": "Ties into e7 (Crypto Revenue article) also targeting Tuesday.",
+      "createdAt": 1771593240000,
+      "updatedAt": 1771593240000,
+      "activity": [
+        {
+          "ts": 1771593240000,
+          "text": "Added by Joel. Due Tuesday Feb 24. Aligns with revenue article (e7).",
+          "by": "Joel (via Viktor)"
+        }
+      ]
+    },
+    {
+      "_id": "t8",
+      "type": "twitter",
+      "title": "Capital Formation Primitives",
+      "status": "assigned",
+      "assignee": "Vaidik",
+      "format": "thread",
+      "dueDate": 1771804800000,
+      "notes": "Due Monday morning.",
+      "createdAt": 1771593240000,
+      "updatedAt": 1771593240000,
+      "activity": [
+        {
+          "ts": 1771593240000,
+          "text": "Added by Joel. Assigned to Vaidik. Due Monday morning Feb 23.",
+          "by": "Joel (via Viktor)"
+        }
+      ]
     }
   ],
   "members": [
@@ -769,7 +835,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771593000000,
+  "updatedAt": 1771593240000,
   "updatedBy": "viktor",
   "checkins": [
     {
