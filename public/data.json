@@ -1,5 +1,5 @@
 {
-  "version": 51,
+  "version": 52,
   "items": [
     {
       "_id": "t1",
@@ -77,12 +77,12 @@
       "_id": "e1",
       "type": "editorial",
       "title": "ZkSync Thesis",
-      "status": "drafting",
+      "status": "completed",
       "assignee": "Saurabh",
       "dueDate": 1768898630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771077881081,
+      "updatedAt": 1771593080427,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -99,19 +99,32 @@
           "ts": 1771077881081,
           "text": "Joel baked in Sid's feedback and handed zkSync doc to Saurabh for finalization. New consolidated version with standardized metrics. Saurabh actively working on it. Joel + Saurabh sync scheduled Sunday 11 AM GST to finalize.",
           "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1771593080427,
+          "text": "Marked as done per Joel \u2014 waiting for team.",
+          "by": "Viktor"
         }
       ]
     },
     {
       "_id": "e2",
-      "type": "editorial",
+      "type": "twitter",
       "title": "Semiliquid",
       "status": "assigned",
       "assignee": "Joel",
-      "dueDate": 1769417030398,
+      "dueDate": "2026-02-25",
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1769676230398
+      "updatedAt": 1771593096301,
+      "notes": "Converted to Twitter note per Joel. Also refers to Qiro. Draft by Monday Feb 23, live Wednesday Feb 25.",
+      "activity": [
+        {
+          "ts": 1771593096301,
+          "text": "Per Joel: converted from editorial to Twitter note (Semiliquid/Qiro). Draft by Mon, live Wed Feb 25.",
+          "by": "Viktor"
+        }
+      ]
     },
     {
       "_id": "e3",
@@ -128,12 +141,12 @@
       "_id": "e4",
       "type": "editorial",
       "title": "Drift Thesis",
-      "status": "drafting",
+      "status": "review",
       "assignee": "Joel",
-      "dueDate": 1770194630398,
+      "dueDate": "2026-02-26",
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771077881081,
+      "updatedAt": 1771593080427,
       "draftUrl": "https://docs.google.com/document/d/1Xw9FyIl2IvGf_2jyqt0LP0qO0_8ENQHCsiQEkmSQLoE/edit?tab=t.0",
       "activity": [
         {
@@ -160,6 +173,11 @@
           "ts": 1771077881081,
           "text": "Joel standardized metrics and updated all numbers in Drift doc. New version: https://docs.google.com/document/d/1Xw9FyIl2IvGf_2jyqt0LP0qO0_8ENQHCsiQEkmSQLoE/edit. Sunday schedule: 11:30 AM-1 PM GST for final review + updating team. Nearing completion.",
           "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1771593080427,
+          "text": "Per Joel: pending update, due Monday for update. Targeting Thursday Feb 26 publish (may delay due to external dependency).",
+          "by": "Viktor"
         }
       ]
     },
@@ -201,16 +219,21 @@
       "title": "Crypto revenue analysis",
       "status": "drafting",
       "assignee": "Saurabh",
-      "dueDate": 1770885830398,
+      "dueDate": "2026-02-24",
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771074292363,
+      "updatedAt": 1771593080427,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771074292363,
           "text": "Saurabh delivered revenue article requirement doc at 4:19 PM GST. Joel received, acknowledged. Joel + Saurabh on a sync call at 5 PM. Doc: https://docs.google.com/document/d/12yt3nJdnFgcQ_C5zrxE5WBcZkz4IN9AZ0n6P6ZK2bIE/edit",
           "by": "Viktor (scan)"
+        },
+        {
+          "ts": 1771593080427,
+          "text": "Per Joel: targeting Tuesday Feb 24 for revenue piece.",
+          "by": "Viktor"
         }
       ],
       "draftUrl": "https://docs.google.com/document/d/12yt3nJdnFgcQ_C5zrxE5WBcZkz4IN9AZ0n6P6ZK2bIE/edit?tab=t.0"
@@ -224,7 +247,14 @@
       "dueDate": 1771231430398,
       "category": "sponsored",
       "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
+      "updatedAt": 1771593080427,
+      "activity": [
+        {
+          "ts": 1771593080427,
+          "text": "Per Joel: checking in on Tuesday Feb 24.",
+          "by": "Viktor"
+        }
+      ]
     },
     {
       "_id": "e9",
@@ -494,7 +524,7 @@
       "title": "Enterprise Ethereum Foundation",
       "status": "pitch",
       "createdAt": 1771172119667,
-      "updatedAt": 1771173737957,
+      "updatedAt": 1771593080427,
       "notes": "Potential write-up topic. No chase needed now \u2014 check in mid-week (Wed Feb 18) with Joel and Saurabh to decide timing.",
       "activity": [
         {
@@ -506,6 +536,11 @@
           "ts": 1771173737957,
           "text": "Joel: no need to chase now, check in mid-week. Added as mid-week reminder.",
           "by": "Joel (via Viktor)"
+        },
+        {
+          "ts": 1771593080427,
+          "text": "Per Joel: staying as pitch concept for now.",
+          "by": "Viktor"
         }
       ]
     },
@@ -683,8 +718,8 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771099339691,
-  "updatedBy": "viktor",
+  "updatedAt": 1771593080427,
+  "updatedBy": "Viktor",
   "checkins": [
     {
       "_id": "ci_20260213_11",
