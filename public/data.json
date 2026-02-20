@@ -1,5 +1,5 @@
 {
-  "version": 52,
+  "version": 53,
   "items": [
     {
       "_id": "t1",
@@ -77,12 +77,12 @@
       "_id": "e1",
       "type": "editorial",
       "title": "ZkSync Thesis",
-      "status": "completed",
+      "status": "done",
       "assignee": "Saurabh",
       "dueDate": 1768898630398,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771593080427,
+      "updatedAt": 1771593000000,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -104,27 +104,38 @@
           "ts": 1771593080427,
           "text": "Marked as done per Joel \u2014 waiting for team.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771593000000,
+          "text": "Marked as done by Joel. Waiting for team (art/publishing pipeline).",
+          "by": "Joel (via Viktor)"
         }
       ]
     },
     {
       "_id": "e2",
       "type": "twitter",
-      "title": "Semiliquid",
+      "title": "Semiliquid / Qiro",
       "status": "assigned",
       "assignee": "Joel",
-      "dueDate": "2026-02-25",
+      "dueDate": 1771977600000,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771593096301,
-      "notes": "Converted to Twitter note per Joel. Also refers to Qiro. Draft by Monday Feb 23, live Wednesday Feb 25.",
+      "updatedAt": 1771593000000,
+      "notes": "Converted from editorial to Twitter note. Draft due Monday Feb 23. Live Wednesday Feb 25.",
       "activity": [
         {
           "ts": 1771593096301,
           "text": "Per Joel: converted from editorial to Twitter note (Semiliquid/Qiro). Draft by Mon, live Wed Feb 25.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771593000000,
+          "text": "Joel converted from editorial article to Twitter note. Draft by Monday, live Wednesday.",
+          "by": "Joel (via Viktor)"
         }
-      ]
+      ],
+      "format": "note"
     },
     {
       "_id": "e3",
@@ -143,10 +154,10 @@
       "title": "Drift Thesis",
       "status": "review",
       "assignee": "Joel",
-      "dueDate": "2026-02-26",
+      "dueDate": 1771804800000,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771593080427,
+      "updatedAt": 1771593000000,
       "draftUrl": "https://docs.google.com/document/d/1Xw9FyIl2IvGf_2jyqt0LP0qO0_8ENQHCsiQEkmSQLoE/edit?tab=t.0",
       "activity": [
         {
@@ -178,8 +189,14 @@
           "ts": 1771593080427,
           "text": "Per Joel: pending update, due Monday for update. Targeting Thursday Feb 26 publish (may delay due to external dependency).",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771593000000,
+          "text": "Joel shared updated doc for review. Marked pending update, due Monday. May delay due to external dependency.",
+          "by": "Joel (via Viktor)"
         }
-      ]
+      ],
+      "notes": "Pending update. Due Monday Feb 23. May delay due to external dependency. Shared for Sid/Saurabh review Feb 20."
     },
     {
       "_id": "e5",
@@ -219,10 +236,10 @@
       "title": "Crypto revenue analysis",
       "status": "drafting",
       "assignee": "Saurabh",
-      "dueDate": "2026-02-24",
+      "dueDate": 1771891200000,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771593080427,
+      "updatedAt": 1771593000000,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -234,27 +251,39 @@
           "ts": 1771593080427,
           "text": "Per Joel: targeting Tuesday Feb 24 for revenue piece.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771593000000,
+          "text": "Joel set publication target: Tuesday Feb 24.",
+          "by": "Joel (via Viktor)"
         }
       ],
-      "draftUrl": "https://docs.google.com/document/d/12yt3nJdnFgcQ_C5zrxE5WBcZkz4IN9AZ0n6P6ZK2bIE/edit?tab=t.0"
+      "draftUrl": "https://docs.google.com/document/d/12yt3nJdnFgcQ_C5zrxE5WBcZkz4IN9AZ0n6P6ZK2bIE/edit?tab=t.0",
+      "notes": "Targeting Tuesday Feb 24 for publication."
     },
     {
       "_id": "e8",
       "type": "editorial",
       "title": "Saffron",
-      "status": "assigned",
-      "assignee": "Saurabh",
+      "status": "drafting",
+      "assignee": "Nishil",
       "dueDate": 1771231430398,
       "category": "sponsored",
       "createdAt": 1770972230398,
-      "updatedAt": 1771593080427,
+      "updatedAt": 1771593000000,
       "activity": [
         {
           "ts": 1771593080427,
           "text": "Per Joel: checking in on Tuesday Feb 24.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771593000000,
+          "text": "Nishil started writing. Saurabh giving feedback. Joel set Tuesday check-in.",
+          "by": "Joel (via Viktor)"
         }
-      ]
+      ],
+      "notes": "Nishil started drafting. Saurabh reviewing. Check-in scheduled for Tuesday Feb 25."
     },
     {
       "_id": "e9",
@@ -524,8 +553,8 @@
       "title": "Enterprise Ethereum Foundation",
       "status": "pitch",
       "createdAt": 1771172119667,
-      "updatedAt": 1771593080427,
-      "notes": "Potential write-up topic. No chase needed now \u2014 check in mid-week (Wed Feb 18) with Joel and Saurabh to decide timing.",
+      "updatedAt": 1771593000000,
+      "notes": "Kept as pitch concept per Joel. No active timeline.",
       "activity": [
         {
           "ts": 1771172119667,
@@ -541,6 +570,11 @@
           "ts": 1771593080427,
           "text": "Per Joel: staying as pitch concept for now.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771593000000,
+          "text": "Joel: keep as pitch concept for now. No active timeline.",
+          "by": "Joel (via Viktor)"
         }
       ]
     },
@@ -668,6 +702,23 @@
           "by": "Viktor"
         }
       ]
+    },
+    {
+      "_id": "e16",
+      "type": "editorial",
+      "title": "StarkNet Content Pipeline",
+      "status": "planned",
+      "category": "sponsored",
+      "notes": "Multiple pieces: Stark BTC, BTC-Fi, Stark 20 asset standard, Privacy competitive landscape, Agentic + privacy. Not due until mid-March. Sid + Saurabh to sync with Jonathan. Reminder set for March 3.",
+      "createdAt": 1771593000000,
+      "updatedAt": 1771593000000,
+      "activity": [
+        {
+          "ts": 1771593000000,
+          "text": "Scoped from Joel \u00d7 Jonathan (StarkNet/StarkWare) call. Multiple pieces planned. Due mid-March. Reminder March 3.",
+          "by": "Joel (via Viktor)"
+        }
+      ]
     }
   ],
   "members": [
@@ -718,8 +769,8 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771593080427,
-  "updatedBy": "Viktor",
+  "updatedAt": 1771593000000,
+  "updatedBy": "viktor",
   "checkins": [
     {
       "_id": "ci_20260213_11",
