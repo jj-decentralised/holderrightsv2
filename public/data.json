@@ -131,8 +131,8 @@
       "dueDate": 1771977600000,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771593000000,
-      "notes": "Converted from editorial to Twitter note. Draft due Monday Feb 23. Live Wednesday Feb 25.",
+      "updatedAt": 1771823364308,
+      "notes": "Converted from editorial to Twitter note. Draft due Monday Feb 23. Live Wednesday Feb 25.\nReference: PCP Doc \u2014 https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0",
       "activity": [
         {
           "ts": 1771593096301,
@@ -143,9 +143,20 @@
           "ts": 1771593000000,
           "text": "Joel converted from editorial article to Twitter note. Draft by Monday, live Wednesday.",
           "by": "Joel (via Viktor)"
+        },
+        {
+          "ts": 1771823364308,
+          "text": "Added PCP reference doc: https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0",
+          "by": "Sid (via Viktor)"
         }
       ],
-      "format": "note"
+      "format": "note",
+      "referenceDocs": [
+        {
+          "title": "PCP Doc",
+          "url": "https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0"
+        }
+      ]
     },
     {
       "_id": "e3",
