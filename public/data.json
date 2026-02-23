@@ -112,7 +112,7 @@
         },
         {
           "ts": 1771593080427,
-          "text": "Marked as done per Joel \u2014 waiting for team.",
+          "text": "Marked as done per Joel — waiting for team.",
           "by": "Viktor"
         },
         {
@@ -183,17 +183,17 @@
         },
         {
           "ts": 1771056241597,
-          "text": "Joel listed Drift doc as top Saturday priority ('finish today'). Spent 11 AM refining arguments with Viktor \u2014 restructure suggested, math corrections identified. Still actively drafting.",
+          "text": "Joel listed Drift doc as top Saturday priority ('finish today'). Spent 11 AM refining arguments with Viktor — restructure suggested, math corrections identified. Still actively drafting.",
           "by": "Viktor (scan)"
         },
         {
           "ts": 1771070598420,
-          "text": "Joel cross-referencing Drift doc claims at 4 PM GST, needs 30 more min. Chase thread tracking 4 PM deadline \u2014 Joel acknowledged delay. Saurabh missed revenue req (4 PM), chase thread handling with dork-label + 15-min reminders.",
+          "text": "Joel cross-referencing Drift doc claims at 4 PM GST, needs 30 more min. Chase thread tracking 4 PM deadline — Joel acknowledged delay. Saurabh missed revenue req (4 PM), chase thread handling with dork-label + 15-min reminders.",
           "by": "Viktor (scan)"
         },
         {
           "ts": 1771074292363,
-          "text": "Viktor completed full Drift numerical review (5 math errors + 5 items to verify, added to doc). Joel took another round at Drift (~4:48 PM). Then shared a new doc (13xpMBH...) at 5 PM for flow/accuracy check \u2014 possibly final version. Joel + Saurabh syncing on call.",
+          "text": "Viktor completed full Drift numerical review (5 math errors + 5 items to verify, added to doc). Joel took another round at Drift (~4:48 PM). Then shared a new doc (13xpMBH...) at 5 PM for flow/accuracy check — possibly final version. Joel + Saurabh syncing on call.",
           "by": "Viktor (scan)"
         },
         {
@@ -367,43 +367,61 @@
       "title": "Trading uranium on-chain",
       "status": "published",
       "assignee": "Vaidik",
-      "dueDate": 1769935430398,
-      "weekNumber": 6,
+      "dueDate": "2026-02-01",
+      "weekNumber": 5,
       "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
+      "updatedAt": 1771835492896,
+      "asanaGid": "1213009339162743"
     },
     {
       "_id": "d2",
       "type": "ttd",
-      "title": "Book review \u2013 The Bitcoin Standard",
+      "title": "Book review - The Bitcoin Standard",
       "status": "published",
-      "assignee": "Nishil",
-      "dueDate": 1770021830398,
+      "assignee": "Thejaswini",
+      "dueDate": "2026-02-02",
       "weekNumber": 6,
       "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
+      "updatedAt": 1771835492896,
+      "asanaGid": "1213098967570443",
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Book review – The Bitcoin Standard' → 'Book review - The Bitcoin Standard'",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
     },
     {
       "_id": "d3",
       "type": "ttd",
-      "title": "Quants piece \u2013 on-chain lending",
+      "title": "Quants piece - on-chain lending",
       "status": "published",
-      "assignee": "Saurabh",
-      "dueDate": 1770108230398,
+      "assignee": "Prathik",
+      "dueDate": "2026-02-03",
       "weekNumber": 6,
       "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
+      "updatedAt": 1771835492896,
+      "asanaGid": "1213098967570455",
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Quants piece – on-chain lending' → 'Quants piece - on-chain lending'",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
     },
     {
       "_id": "d4",
       "type": "ttd",
       "title": "Hype's prediction markets",
       "status": "published",
-      "assignee": "Nishil",
-      "dueDate": 1770194630398,
+      "assignee": "Thejaswini",
+      "dueDate": "2026-02-04",
       "weekNumber": 6,
       "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
+      "updatedAt": 1771835492896,
+      "asanaGid": "1213098967570468"
     },
     {
       "_id": "d5",
@@ -411,43 +429,11 @@
       "title": "AI agentic economy",
       "status": "published",
       "assignee": "Vaidik",
-      "dueDate": 1770540230398,
+      "dueDate": "2026-02-08",
       "weekNumber": 6,
       "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
-    },
-    {
-      "_id": "d6",
-      "type": "ttd",
-      "title": "DeFi yield strategies 2026",
-      "status": "drafting",
-      "assignee": "Vaidik",
-      "dueDate": 1771058630398,
-      "weekNumber": 7,
-      "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
-    },
-    {
-      "_id": "d7",
-      "type": "ttd",
-      "title": "Stablecoin regulation update",
-      "status": "planned",
-      "assignee": "Nishil",
-      "dueDate": 1771145030398,
-      "weekNumber": 7,
-      "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
-    },
-    {
-      "_id": "d8",
-      "type": "ttd",
-      "title": "Bitcoin mining economics",
-      "status": "planned",
-      "assignee": "Saurabh",
-      "dueDate": 1771231430398,
-      "weekNumber": 7,
-      "createdAt": 1770972230398,
-      "updatedAt": 1770972230398
+      "updatedAt": 1771835492896,
+      "asanaGid": "1213098960096760"
     },
     {
       "_id": "p1",
@@ -542,7 +528,7 @@
         },
         {
           "ts": 1770980699970,
-          "text": "Pinged Pratik in #dco-ttd thread for update on copy \u2014 is it good to go? (requested by Joel)",
+          "text": "Pinged Pratik in #dco-ttd thread for update on copy — is it good to go? (requested by Joel)",
           "by": "Viktor"
         },
         {
@@ -552,7 +538,7 @@
         },
         {
           "ts": 1770982496688,
-          "text": "Nishil addressed Pratik's comments \u2014 marked as edited.",
+          "text": "Nishil addressed Pratik's comments — marked as edited.",
           "by": "Viktor"
         },
         {
@@ -602,7 +588,7 @@
       "assignee": "Thejaswini",
       "dueDate": "2026-02-16",
       "createdAt": 1771235032294,
-      "updatedAt": 1771835343636,
+      "updatedAt": 1771835492896,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -611,11 +597,13 @@
           "by": "Viktor"
         },
         {
-          "ts": 1771835343636,
-          "text": "Synced from Asana: title \u2192 'Book reading'; status \u2192 published",
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'The book' → 'Book reading'; status: 'drafting' → 'published'",
           "by": "Viktor (Asana sync)"
         }
-      ]
+      ],
+      "asanaGid": "1213249473667494",
+      "weekNumber": 8
     },
     {
       "_id": "d_w7_tue",
@@ -625,7 +613,7 @@
       "assignee": "Prathik",
       "dueDate": "2026-02-17",
       "createdAt": 1771235032294,
-      "updatedAt": 1771835343636,
+      "updatedAt": 1771835492896,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -634,11 +622,13 @@
           "by": "Viktor"
         },
         {
-          "ts": 1771835343636,
-          "text": "Synced from Asana: title \u2192 'Quants piece on state of DATs'; status \u2192 published",
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Quant story on DAOs' → 'Quants piece on state of DATs'; status: 'drafting' → 'published'",
           "by": "Viktor (Asana sync)"
         }
-      ]
+      ],
+      "asanaGid": "1213185625556027",
+      "weekNumber": 8
     },
     {
       "_id": "d_w7_wed",
@@ -648,7 +638,7 @@
       "assignee": "Thejaswini",
       "dueDate": "2026-02-18",
       "createdAt": 1771235032294,
-      "updatedAt": 1771835343636,
+      "updatedAt": 1771835492896,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -657,21 +647,23 @@
           "by": "Viktor"
         },
         {
-          "ts": 1771835343636,
-          "text": "Synced from Asana: title \u2192 'Tokenised gold duopoly: Tether vs Paxos'; status \u2192 published",
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Tokenized gold market — Tether vs Paxos' → 'Tokenised gold duopoly: Tether vs Paxos'; status: 'planned' → 'published'",
           "by": "Viktor (Asana sync)"
         }
-      ]
+      ],
+      "asanaGid": "1213250701775896",
+      "weekNumber": 8
     },
     {
       "_id": "d_w7_thu",
       "type": "ttd",
-      "title": "Crypto as superstructure + RWA",
+      "title": "Crypto as superstructure +  RWA",
       "status": "published",
       "assignee": "Prathik",
       "dueDate": "2026-02-19",
       "createdAt": 1771235032294,
-      "updatedAt": 1771835343636,
+      "updatedAt": 1771835492896,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -680,11 +672,13 @@
           "by": "Viktor"
         },
         {
-          "ts": 1771835343636,
-          "text": "Synced from Asana: title \u2192 'Crypto as superstructure + RWA'; status \u2192 published; assignee \u2192 Prathik",
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Superstructure + RWA — BlackRock × Uniswap' → 'Crypto as superstructure +  RWA'; status: 'planned' → 'published'",
           "by": "Viktor (Asana sync)"
         }
-      ]
+      ],
+      "asanaGid": "1213146486141852",
+      "weekNumber": 8
     },
     {
       "_id": "d_w7_fri",
@@ -694,20 +688,22 @@
       "assignee": "Prathik",
       "dueDate": "2026-02-20",
       "createdAt": 1771235032294,
-      "updatedAt": 1771835343636,
+      "updatedAt": 1771835492896,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771235032294,
-          "text": "Added from ideas call \u2014 blend of earnings shifts + trend positioning.",
+          "text": "Added from ideas call — blend of earnings shifts + trend positioning.",
           "by": "Viktor"
         },
         {
-          "ts": 1771835343636,
-          "text": "Synced from Asana: title \u2192 'Coinbase + Robinhood'; status \u2192 published",
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Coinbase + Robinhood blend' → 'Coinbase + Robinhood'; status: 'planned' → 'published'",
           "by": "Viktor (Asana sync)"
         }
-      ]
+      ],
+      "asanaGid": "1213185628221122",
+      "weekNumber": 8
     },
     {
       "_id": "d_w7_sat",
@@ -717,7 +713,7 @@
       "assignee": "Nishil",
       "dueDate": "2026-02-21",
       "createdAt": 1771235032294,
-      "updatedAt": 1771835343636,
+      "updatedAt": 1771835492896,
       "activity": [
         {
           "ts": 1771235032294,
@@ -725,11 +721,13 @@
           "by": "Viktor"
         },
         {
-          "ts": 1771835343636,
-          "text": "Synced from Asana: title \u2192 'Ownership Coins'; status \u2192 published",
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Saturday article — TBD (Nishil pitching new idea)' → 'Ownership Coins'; status: 'pitch' → 'published'",
           "by": "Viktor (Asana sync)"
         }
-      ]
+      ],
+      "asanaGid": "1213250732872454",
+      "weekNumber": 8
     },
     {
       "_id": "d_w7_sun",
@@ -739,7 +737,7 @@
       "assignee": "Vaidik",
       "dueDate": "2026-02-22",
       "createdAt": 1771235032294,
-      "updatedAt": 1771835343636,
+      "updatedAt": 1771835492896,
       "artStatus": "needs_art",
       "activity": [
         {
@@ -748,11 +746,13 @@
           "by": "Viktor"
         },
         {
-          "ts": 1771835343636,
-          "text": "Synced from Asana: title \u2192 'Reinsurance by prediction markets'; status \u2192 published",
+          "ts": 1771835492896,
+          "text": "Synced from Asana. title: 'Reinsurance & protection markets' → 'Reinsurance by prediction markets'; status: 'planned' → 'published'",
           "by": "Viktor (Asana sync)"
         }
-      ]
+      ],
+      "asanaGid": "1213250732872468",
+      "weekNumber": 8
     },
     {
       "_id": "e16",
@@ -766,7 +766,7 @@
       "activity": [
         {
           "ts": 1771593000000,
-          "text": "Scoped from Joel \u00d7 Jonathan (StarkNet/StarkWare) call. Multiple pieces planned. Due mid-March. Reminder March 3.",
+          "text": "Scoped from Joel × Jonathan (StarkNet/StarkWare) call. Multiple pieces planned. Due mid-March. Reminder March 3.",
           "by": "Joel (via Viktor)"
         }
       ]
@@ -853,37 +853,343 @@
       ]
     },
     {
-      "_id": "d_w9_tue",
+      "_id": "d_w5_mon",
       "type": "ttd",
-      "title": "Prediction markets as policymaking tools",
-      "status": "review",
-      "assignee": "Prathik",
-      "dueDate": "2026-02-25",
-      "weekNumber": 9,
-      "createdAt": 1771835343636,
-      "updatedAt": 1771835343636,
+      "title": "Book review",
+      "status": "published",
+      "assignee": "Thejaswini",
+      "dueDate": "2026-01-26",
+      "weekNumber": 5,
+      "asanaGid": "1213009337200217",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
       "activity": [
         {
-          "ts": 1771835343636,
-          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213387212491513",
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 05 - 2026).",
           "by": "Viktor (Asana sync)"
         }
       ]
     },
     {
-      "_id": "d_w9_thu",
+      "_id": "d_w5_tue",
       "type": "ttd",
-      "title": "The Reading List",
-      "status": "review",
+      "title": "Quants piece - Crypto Funding 2025",
+      "status": "published",
       "assignee": "Prathik",
-      "dueDate": "2026-02-27",
-      "weekNumber": 9,
-      "createdAt": 1771835343636,
-      "updatedAt": 1771835343636,
+      "dueDate": "2026-01-27",
+      "weekNumber": 5,
+      "asanaGid": "1213009337200226",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
       "activity": [
         {
-          "ts": 1771835343636,
-          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213390126545053",
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 05 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w5_wed",
+      "type": "ttd",
+      "title": "HIP-3 AWS of Finance",
+      "status": "published",
+      "assignee": "Prathik",
+      "dueDate": "2026-01-28",
+      "weekNumber": 5,
+      "asanaGid": "1213009337200235",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 05 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w5_thu",
+      "type": "ttd",
+      "title": "Tether and Gold",
+      "status": "published",
+      "assignee": "Thejaswini",
+      "dueDate": "2026-01-29",
+      "weekNumber": 5,
+      "asanaGid": "1213009336790032",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 05 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w5_fri",
+      "type": "ttd",
+      "title": "Reading List Review",
+      "status": "published",
+      "assignee": "Prathik",
+      "dueDate": "2026-01-30",
+      "weekNumber": 5,
+      "asanaGid": "1213009336790044",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 05 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w5_sat",
+      "type": "ttd",
+      "title": "Claude a Coin",
+      "status": "published",
+      "assignee": "Nishil",
+      "dueDate": "2026-01-31",
+      "weekNumber": 5,
+      "asanaGid": "1213009339162731",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 05 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w6_thu",
+      "type": "ttd",
+      "title": "Virtuals' Protocol \"60-day framework\"",
+      "status": "published",
+      "assignee": "Thejaswini",
+      "dueDate": "2026-02-05",
+      "weekNumber": 6,
+      "asanaGid": "1213098967563851",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 06 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w6_fri",
+      "type": "ttd",
+      "title": "Galaxy results",
+      "status": "published",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-06",
+      "weekNumber": 6,
+      "asanaGid": "1213009320288126",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 06 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w6_sat",
+      "type": "ttd",
+      "title": "Tokenisation",
+      "status": "published",
+      "assignee": "Nishil",
+      "dueDate": "2026-02-07",
+      "weekNumber": 6,
+      "asanaGid": "1213098967563865",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 06 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_mon_1",
+      "type": "ttd",
+      "title": "Sponsorship - Reality network",
+      "status": "published",
+      "assignee": "Thejaswini",
+      "dueDate": "2026-02-09",
+      "weekNumber": 7,
+      "asanaGid": "1213185629509082",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 07 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_tue_1",
+      "type": "ttd",
+      "title": "Vitalik is right and why?",
+      "status": "published",
+      "assignee": "Thejaswini",
+      "dueDate": "2026-02-10",
+      "weekNumber": 7,
+      "asanaGid": "1213146486141845",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 07 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_wed_1",
+      "type": "ttd",
+      "title": "Quants piece - Perps story",
+      "status": "published",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-11",
+      "weekNumber": 7,
+      "asanaGid": "1213185629509092",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 07 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_thu_1",
+      "type": "ttd",
+      "title": "Blockchain privacy",
+      "status": "published",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-12",
+      "weekNumber": 7,
+      "asanaGid": "1213237486896011",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 07 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_fri_1",
+      "type": "ttd",
+      "title": "Reading list",
+      "status": "published",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-13",
+      "weekNumber": 7,
+      "asanaGid": "1213185629532789",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 07 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_sat_1",
+      "type": "ttd",
+      "title": "Tradfi assets on DeFi",
+      "status": "published",
+      "assignee": "Nishil",
+      "dueDate": "2026-02-14",
+      "weekNumber": 7,
+      "asanaGid": "1213185629532803",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 07 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w7_thu_2",
+      "type": "ttd",
+      "title": "Entertainment + Finance",
+      "status": "published",
+      "assignee": "Vaidik",
+      "dueDate": "2026-02-12",
+      "weekNumber": 7,
+      "asanaGid": "1213185629533042",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 07 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_16",
+      "type": "ttd",
+      "title": "Book reading",
+      "status": "assigned",
+      "assignee": "Thejaswini",
+      "dueDate": null,
+      "weekNumber": 9,
+      "asanaGid": "1213395499727072",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 09 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_tue",
+      "type": "ttd",
+      "title": "Prediction markets as policymaking tools",
+      "status": "assigned",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-24",
+      "weekNumber": 9,
+      "asanaGid": "1213387212491513",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 09 - 2026).",
           "by": "Viktor (Asana sync)"
         }
       ]
@@ -891,17 +1197,18 @@
     {
       "_id": "d_w9_fri",
       "type": "ttd",
-      "title": "Ondo's expansion into RWA",
-      "status": "review",
-      "assignee": "Nishil",
-      "dueDate": "2026-02-28",
+      "title": "The Reading List",
+      "status": "assigned",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-27",
       "weekNumber": 9,
-      "createdAt": 1771835343636,
-      "updatedAt": 1771835343636,
+      "asanaGid": "1213390126545053",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
       "activity": [
         {
-          "ts": 1771835343636,
-          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213395499728490",
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 09 - 2026).",
           "by": "Viktor (Asana sync)"
         }
       ]
@@ -909,35 +1216,18 @@
     {
       "_id": "d_w9_sat",
       "type": "ttd",
-      "title": "DeepDive into ERC-5564",
-      "status": "planned",
-      "assignee": "Vaidik",
-      "dueDate": "2026-03-01",
+      "title": "Ondo's expansion into RWA",
+      "status": "assigned",
+      "assignee": "Nishil",
+      "dueDate": "2026-02-28",
       "weekNumber": 9,
-      "createdAt": 1771835343636,
-      "updatedAt": 1771835343636,
+      "asanaGid": "1213395499728490",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
       "activity": [
         {
-          "ts": 1771835343636,
-          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213394795657640",
-          "by": "Viktor (Asana sync)"
-        }
-      ]
-    },
-    {
-      "_id": "d_w9_sat_2",
-      "type": "ttd",
-      "title": "Every protocol Will Need an AI Red Team",
-      "status": "review",
-      "assignee": "Vaidik",
-      "dueDate": "2026-03-01",
-      "weekNumber": 9,
-      "createdAt": 1771835343636,
-      "updatedAt": 1771835343636,
-      "activity": [
-        {
-          "ts": 1771835343636,
-          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213395499728504",
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 09 - 2026).",
           "by": "Viktor (Asana sync)"
         }
       ]
@@ -945,17 +1235,37 @@
     {
       "_id": "d_w9_sun",
       "type": "ttd",
-      "title": "Book reading",
-      "status": "review",
-      "assignee": "Thejaswini",
-      "dueDate": null,
+      "title": "Every protocol Will Need an AI Red Team:",
+      "status": "assigned",
+      "assignee": "Vaidik",
+      "dueDate": "2026-03-01",
       "weekNumber": 9,
-      "createdAt": 1771835343636,
-      "updatedAt": 1771835343636,
+      "asanaGid": "1213395499728504",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
       "activity": [
         {
-          "ts": 1771835343636,
-          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213395499727072",
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 09 - 2026).",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_sun_1",
+      "type": "ttd",
+      "title": "DeepDive into ERC-5564",
+      "status": "assigned",
+      "assignee": "Vaidik",
+      "dueDate": "2026-03-01",
+      "weekNumber": 9,
+      "asanaGid": "1213394795657640",
+      "createdAt": 1771835492896,
+      "updatedAt": 1771835492896,
+      "activity": [
+        {
+          "ts": 1771835492896,
+          "text": "Synced from Asana TokenDispatch (Week 09 - 2026).",
           "by": "Viktor (Asana sync)"
         }
       ]
@@ -1020,7 +1330,7 @@
       "entries": [
         {
           "person": "Vaidik",
-          "summary": "Finished Virtuals Protocol twitter copy and shared doc with Sid & Joel. Joel gave feedback \u2014 Vaidik to incorporate and revise. Also has Gravity/ZkSync (e10) assigned but no discussion yet. TTD d6 (DeFi yield strategies) due tomorrow, in drafting.",
+          "summary": "Finished Virtuals Protocol twitter copy and shared doc with Sid & Joel. Joel gave feedback — Vaidik to incorporate and revise. Also has Gravity/ZkSync (e10) assigned but no discussion yet. TTD d6 (DeFi yield strategies) due tomorrow, in drafting.",
           "items_updated": [
             "t5"
           ],
@@ -1038,7 +1348,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "Active in DMs setting up a themes/reads digest with Viktor. No visible activity on content items \u2014 e7 (Crypto revenue analysis) 1d overdue, e5 (LiFi) 8d overdue in review, e1 (ZkSync) 24d overdue. Podcast p1 (LiFi) also 3d overdue.",
+          "summary": "Active in DMs setting up a themes/reads digest with Viktor. No visible activity on content items — e7 (Crypto revenue analysis) 1d overdue, e5 (LiFi) 8d overdue in review, e1 (ZkSync) 24d overdue. Podcast p1 (LiFi) also 3d overdue.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -1070,7 +1380,7 @@
         }
       ],
       "pings_sent": [],
-      "summary": "First hourly scan. Vaidik's Virtuals copy shared with Sid/Joel (doc link added). Nishil's Silver article back with Joel for review. Saurabh active but no movement on his 3 overdue items. No writer pings needed \u2014 all had recent Slack activity."
+      "summary": "First hourly scan. Vaidik's Virtuals copy shared with Sid/Joel (doc link added). Nishil's Silver article back with Joel for review. Saurabh active but no movement on his 3 overdue items. No writer pings needed — all had recent Slack activity."
     },
     {
       "_id": "ci_20260213_11",
@@ -1098,7 +1408,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "Active in DMs \u2014 asked Viktor to set up recurring crypto themes/reads digest from #goodreads and external media for X brand content ideas. No specific editorial item updates.",
+          "summary": "Active in DMs — asked Viktor to set up recurring crypto themes/reads digest from #goodreads and external media for X brand content ideas. No specific editorial item updates.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -1144,7 +1454,7 @@
         }
       ],
       "pings_sent": [],
-      "summary": "Active scan: Vaidik shared Virtuals copy with Sid (handoff updated). Nishil's Silver Article back with Joel for review. Saurabh active but no editorial updates. Prathik's reading list submitted late. No pings needed \u2014 all writers active."
+      "summary": "Active scan: Vaidik shared Virtuals copy with Sid (handoff updated). Nishil's Silver Article back with Joel for review. Saurabh active but no editorial updates. Prathik's reading list submitted late. No pings needed — all writers active."
     },
     {
       "_id": "ci_20260213_12",
@@ -1154,14 +1464,14 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Active in DMs \u2014 explored custom app ideas, newsletter analytics tooling, and integration options. No direct editorial instructions this hour.",
+          "summary": "Active in DMs — explored custom app ideas, newsletter analytics tooling, and integration options. No direct editorial instructions this hour.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Vaidik",
-          "summary": "Collaborated with Andres in #creatives on Capital Formation visual (t2) \u2014 liked rocket motif, suggested adding colors and title. Virtuals copy (t5) still waiting on Sid's review.",
+          "summary": "Collaborated with Andres in #creatives on Capital Formation visual (t2) — liked rocket motif, suggested adding colors and title. Virtuals copy (t5) still waiting on Sid's review.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -1175,7 +1485,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "No public channel activity. Last interaction was DM with Viktor ~2.5h ago about themes/reads digest. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1). Viktor DM'd recently \u2014 skipped content ping.",
+          "summary": "No public channel activity. Last interaction was DM with Viktor ~2.5h ago about themes/reads digest. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1). Viktor DM'd recently — skipped content ping.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -1190,7 +1500,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Quiet scan. Zero new public channel messages. Joel exploring product ideas in DMs. Silver article waiting on Pratik's sign-off. Virtuals waiting on Sid's review. Saurabh silent on editorial \u2014 3 overdue items. No pings or hub changes needed."
+      "summary": "Quiet scan. Zero new public channel messages. Joel exploring product ideas in DMs. Silver article waiting on Pratik's sign-off. Virtuals waiting on Sid's review. Saurabh silent on editorial — 3 overdue items. No pings or hub changes needed."
     },
     {
       "_id": "ci_20260213_17",
@@ -1200,7 +1510,7 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Actively working on Drift thesis (e4) \u2014 shared Google Doc for fact-checking with Viktor. 13 factual errors corrected, 12+ items flagged for review. Also connected Google Drive + Email, explored meeting notes workflows, and scheduled a Joel\u2194Saurabh sync for Monday 5 PM GST.",
+          "summary": "Actively working on Drift thesis (e4) — shared Google Doc for fact-checking with Viktor. 13 factual errors corrected, 12+ items flagged for review. Also connected Google Drive + Email, explored meeting notes workflows, and scheduled a Joel↔Saurabh sync for Monday 5 PM GST.",
           "items_updated": [
             "e4"
           ],
@@ -1216,21 +1526,21 @@
         },
         {
           "person": "Nishil",
-          "summary": "Last active ~1h ago \u2014 edited Silver article per Pratik's comments in dco-ttd. Waiting on Pratik's sign-off (no response to Viktor's follow-up ping yet).",
+          "summary": "Last active ~1h ago — edited Silver article per Pratik's comments in dco-ttd. Waiting on Pratik's sign-off (no response to Viktor's follow-up ping yet).",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Saurabh",
-          "summary": "No public channel activity. Viktor DM'd ~1h ago about themes/reads digest channel \u2014 no response. Joel scheduled sync for Monday 5 PM GST. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1).",
+          "summary": "No public channel activity. Viktor DM'd ~1h ago about themes/reads digest channel — no response. Joel scheduled sync for Monday 5 PM GST. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1).",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
         },
         {
           "person": "Sid",
-          "summary": "No response to Virtuals review request (t5) \u2014 DM sent ~4h ago. No public activity.",
+          "summary": "No response to Virtuals review request (t5) — DM sent ~4h ago. No public activity.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
@@ -1253,7 +1563,7 @@
         }
       ],
       "pings_sent": [],
-      "summary": "Joel actively working on Drift thesis \u2014 fact-checked doc with Viktor, 13 corrections made. Status updated to drafting. Silver article still waiting on Pratik. Virtuals still waiting on Sid. No writer pings needed."
+      "summary": "Joel actively working on Drift thesis — fact-checked doc with Viktor, 13 corrections made. Status updated to drafting. Silver article still waiting on Pratik. Virtuals still waiting on Sid. No writer pings needed."
     },
     {
       "_id": "ci_20260213_18",
@@ -1263,7 +1573,7 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Very active last hour. Reviewed WIP Twitter concepts from Content Hub. Shared a new Google Doc for fact-checking (separate from Drift). Requested critical team productivity assessment \u2014 received detailed breakdown. Working late (past 6 PM GST).",
+          "summary": "Very active last hour. Reviewed WIP Twitter concepts from Content Hub. Shared a new Google Doc for fact-checking (separate from Drift). Requested critical team productivity assessment — received detailed breakdown. Working late (past 6 PM GST).",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -1284,7 +1594,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "No public channel or DM activity this scan window. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1). Joel already scheduled Monday 5 PM sync. End of day \u2014 no ping sent (past 6 PM GST).",
+          "summary": "No public channel or DM activity this scan window. Still has 3 overdue editorial items (e1, e5, e7) + overdue podcast (p1). Joel already scheduled Monday 5 PM sync. End of day — no ping sent (past 6 PM GST).",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
@@ -1299,7 +1609,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Quiet scan. Joel active (new doc fact-check, productivity review) but no content status changes. All writers silent \u2014 end of workday (past 6 PM GST). No pings sent. Silver still blocked on Pratik, Virtuals still blocked on Sid."
+      "summary": "Quiet scan. Joel active (new doc fact-check, productivity review) but no content status changes. All writers silent — end of workday (past 6 PM GST). No pings sent. Silver still blocked on Pratik, Virtuals still blocked on Sid."
     },
     {
       "_id": "ci_20260213_19",
@@ -1309,7 +1619,7 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Active late evening. Requested Viktor check in with Vaidik + Prathik/Nishil on open items. Then posted Virtuals tweet live on @Decentralisedco \u2014 published the piece directly, bypassing Sid's stalled review.",
+          "summary": "Active late evening. Requested Viktor check in with Vaidik + Prathik/Nishil on open items. Then posted Virtuals tweet live on @Decentralisedco — published the piece directly, bypassing Sid's stalled review.",
           "items_updated": [
             "t5"
           ],
@@ -1318,7 +1628,7 @@
         },
         {
           "person": "Vaidik",
-          "summary": "Responded quickly to check-in \u2014 confirmed he sent the final Virtuals Twitter draft to Joel. Piece then went live. d6 (DeFi yield TTD) still due tomorrow, Gravity/ZkSync (e10) no movement.",
+          "summary": "Responded quickly to check-in — confirmed he sent the final Virtuals Twitter draft to Joel. Piece then went live. d6 (DeFi yield TTD) still due tomorrow, Gravity/ZkSync (e10) no movement.",
           "items_updated": [
             "t5"
           ],
@@ -1364,7 +1674,7 @@
         }
       ],
       "pings_sent": [],
-      "summary": "Virtuals Protocol tweet published live by Joel \u2014 bypassed Sid's stalled review. t5 status updated to published. Silver article still stuck on Prathik sign-off. All writers quiet (evening hours). No pings sent \u2014 past 6 PM GST."
+      "summary": "Virtuals Protocol tweet published live by Joel — bypassed Sid's stalled review. t5 status updated to published. Silver article still stuck on Prathik sign-off. All writers quiet (evening hours). No pings sent — past 6 PM GST."
     },
     {
       "_id": "ci_20260213_22",
@@ -1374,14 +1684,14 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Active at 8-8:30 PM GST \u2014 reviewed Viktor's bandwidth restructuring analysis and said 'im on the updated plan' (suggests he'll action redistribution next week). Asked Viktor to remind writers about Monday ideas call. Quiet since ~8:30 PM.",
+          "summary": "Active at 8-8:30 PM GST — reviewed Viktor's bandwidth restructuring analysis and said 'im on the updated plan' (suggests he'll action redistribution next week). Asked Viktor to remind writers about Monday ideas call. Quiet since ~8:30 PM.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Vaidik",
-          "summary": "At 7:37 PM GST responded to TTD check-in: 'Wrapping it up as we speak. Will send asap here.' d6 (DeFi yield strategies) due tomorrow \u2014 not yet submitted but actively working on it.",
+          "summary": "At 7:37 PM GST responded to TTD check-in: 'Wrapping it up as we speak. Will send asap here.' d6 (DeFi yield strategies) due tomorrow — not yet submitted but actively working on it.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -1402,7 +1712,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "No activity this window. Still has overdue items (e1, e5, e7, p1). Joel scheduled Monday 5 PM sync. No ping \u2014 past work hours.",
+          "summary": "No activity this window. Still has overdue items (e1, e5, e7, p1). Joel scheduled Monday 5 PM sync. No ping — past work hours.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
@@ -1417,7 +1727,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Late evening scan (10 PM GST). Joel accepted bandwidth restructuring plan \u2014 may action item reassignments next week. Vaidik wrapping up d6 TTD. Monday ideas reminder posted. Silver still blocked on Prathik. No hub changes or pings \u2014 end of day."
+      "summary": "Late evening scan (10 PM GST). Joel accepted bandwidth restructuring plan — may action item reassignments next week. Vaidik wrapping up d6 TTD. Monday ideas reminder posted. Silver still blocked on Prathik. No hub changes or pings — end of day."
     },
     {
       "_id": "ci_20260213_19",
@@ -1427,7 +1737,7 @@
       "entries": [
         {
           "person": "Prathik",
-          "summary": "Approved Silver article \u2014 'reviewed the copy, good to go, will be scheduled for publishing.' Persistent blocker resolved.",
+          "summary": "Approved Silver article — 'reviewed the copy, good to go, will be scheduled for publishing.' Persistent blocker resolved.",
           "items_updated": [
             "e_silver"
           ],
@@ -1450,7 +1760,7 @@
         },
         {
           "person": "Joel",
-          "summary": "Active late evening \u2014 accepted bandwidth restructuring plan, requested Monday ideas reminders. Winding down.",
+          "summary": "Active late evening — accepted bandwidth restructuring plan, requested Monday ideas reminders. Winding down.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -1466,7 +1776,7 @@
         }
       ],
       "pings_sent": [],
-      "summary": "Silver article unblocked \u2014 Prathik approved after 3+ follow-ups. Status: review \u2192 scheduled. No writer pings (11 PM GST). Vaidik's d6 TTD still pending."
+      "summary": "Silver article unblocked — Prathik approved after 3+ follow-ups. Status: review → scheduled. No writer pings (11 PM GST). Vaidik's d6 TTD still pending."
     },
     {
       "_id": "ci_20260213_20",
@@ -1476,7 +1786,7 @@
       "entries": [
         {
           "person": "All",
-          "summary": "Zero Slack activity across all channels and DMs since 11 PM GST scan. Midnight \u2014 all team members offline.",
+          "summary": "Zero Slack activity across all channels and DMs since 11 PM GST scan. Midnight — all team members offline.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -1484,7 +1794,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Quiet midnight scan. No activity since 11 PM GST. Vaidik's d6 TTD (due today) still not submitted \u2014 said 'wrapping up' at 7:37 PM. All writers offline."
+      "summary": "Quiet midnight scan. No activity since 11 PM GST. Vaidik's d6 TTD (due today) still not submitted — said 'wrapping up' at 7:37 PM. All writers offline."
     },
     {
       "_id": "ci_20260213_01",
@@ -1494,7 +1804,7 @@
       "entries": [],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "1 AM GST Saturday quiet scan \u2014 zero activity across all channels and DMs since midnight. All writers offline. d6 (Vaidik DeFi yield TTD, due today) still pending. e_silver remains scheduled for Saturday publishing."
+      "summary": "1 AM GST Saturday quiet scan — zero activity across all channels and DMs since midnight. All writers offline. d6 (Vaidik DeFi yield TTD, due today) still pending. e_silver remains scheduled for Saturday publishing."
     },
     {
       "_id": "ci_20260213_22",
@@ -1504,7 +1814,7 @@
       "entries": [],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "2 AM GST Saturday quiet scan \u2014 zero activity across all channels and DMs since 1 AM scan. All writers offline. d6 (Vaidik DeFi yield TTD, due today Feb 14) still pending. e_silver remains scheduled for Saturday publishing. No hub updates, no pings."
+      "summary": "2 AM GST Saturday quiet scan — zero activity across all channels and DMs since 1 AM scan. All writers offline. d6 (Vaidik DeFi yield TTD, due today Feb 14) still pending. e_silver remains scheduled for Saturday publishing. No hub updates, no pings."
     },
     {
       "_id": "ci_20260213_23",
@@ -1514,7 +1824,7 @@
       "entries": [],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "3 AM GST Saturday \u2014 zero activity across all channels and DMs. All writers offline. d6 (Vaidik DeFi yield TTD, due today) still pending. e_silver scheduled for Saturday publishing. No hub changes."
+      "summary": "3 AM GST Saturday — zero activity across all channels and DMs. All writers offline. d6 (Vaidik DeFi yield TTD, due today) still pending. e_silver scheduled for Saturday publishing. No hub changes."
     },
     {
       "_id": "ci_20260214_00",
@@ -1524,7 +1834,7 @@
       "entries": [],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "4 AM GST Saturday \u2014 zero activity. All writers offline. No log files modified in 4+ hours. Known pending: d6 (Vaidik DeFi yield TTD, due today), e_silver (scheduled for Saturday publishing)."
+      "summary": "4 AM GST Saturday — zero activity. All writers offline. No log files modified in 4+ hours. Known pending: d6 (Vaidik DeFi yield TTD, due today), e_silver (scheduled for Saturday publishing)."
     },
     {
       "_id": "ci_20260214_01",
@@ -1534,7 +1844,7 @@
       "entries": [],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "5 AM GST Saturday \u2014 zero activity across all channels and DMs. All writers offline. No log files modified in 4+ hours. d6 (Vaidik DeFi yield TTD, due today) still pending. e_silver scheduled for Saturday publishing."
+      "summary": "5 AM GST Saturday — zero activity across all channels and DMs. All writers offline. No log files modified in 4+ hours. d6 (Vaidik DeFi yield TTD, due today) still pending. e_silver scheduled for Saturday publishing."
     },
     {
       "_id": "ci_20260214_06",
@@ -1544,7 +1854,7 @@
       "entries": [],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "6 AM GST Saturday \u2014 zero activity across all channels and DMs since 5 AM scan. All writers offline. No hub updates, no pings (outside hours)."
+      "summary": "6 AM GST Saturday — zero activity across all channels and DMs since 5 AM scan. All writers offline. No hub updates, no pings (outside hours)."
     },
     {
       "_id": "ci_20260214_03",
@@ -1554,7 +1864,7 @@
       "entries": [],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "7 AM GST Saturday \u2014 zero activity across all channels and DMs since 6 AM scan. Writers offline. Approaching work hours window."
+      "summary": "7 AM GST Saturday — zero activity across all channels and DMs since 6 AM scan. Writers offline. Approaching work hours window."
     },
     {
       "_id": "ci_20260214_08",
@@ -1571,21 +1881,21 @@
         },
         {
           "person": "Nishil",
-          "summary": "No activity since yesterday. d7 (Stablecoin regulation TTD) due tomorrow Feb 15. e_silver scheduled for publishing today (Prathik approved). No ping needed \u2014 not overdue yet.",
+          "summary": "No activity since yesterday. d7 (Stablecoin regulation TTD) due tomorrow Feb 15. e_silver scheduled for publishing today (Prathik approved). No ping needed — not overdue yet.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
         },
         {
           "person": "Saurabh",
-          "summary": "No activity since yesterday morning. Multiple overdue items (e1, e5, e7). Joel has Monday sync planned. No ping \u2014 Joel handling directly.",
+          "summary": "No activity since yesterday morning. Multiple overdue items (e1, e5, e7). Joel has Monday sync planned. No ping — Joel handling directly.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
         },
         {
           "person": "Joel",
-          "summary": "No activity since ~8:30 PM GST Friday. Expected \u2014 Saturday morning.",
+          "summary": "No activity since ~8:30 PM GST Friday. Expected — Saturday morning.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
@@ -1599,7 +1909,7 @@
           "channel": "DM"
         }
       ],
-      "summary": "8 AM GST Saturday scan. Zero overnight activity. Pinged Vaidik about d6 due today \u2014 12+ hours since 'wrapping up'. e_silver scheduled for Saturday publishing."
+      "summary": "8 AM GST Saturday scan. Zero overnight activity. Pinged Vaidik about d6 due today — 12+ hours since 'wrapping up'. e_silver scheduled for Saturday publishing."
     },
     {
       "_id": "ci_20260214_09",
@@ -1609,7 +1919,7 @@
       "entries": [
         {
           "person": "Thejaswini",
-          "summary": "Responded to Monday ideas call \u2014 added 2 story ideas on Asana (tasks 1213250701775890, 1213250701775896)",
+          "summary": "Responded to Monday ideas call — added 2 story ideas on Asana (tasks 1213250701775890, 1213250701775896)",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -1633,7 +1943,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Saturday 9 AM \u2014 Thejaswini and Prathik submitted Monday ideas in #dco-ttd. Vaidik hasn't responded to d6 ping yet. No hub status changes."
+      "summary": "Saturday 9 AM — Thejaswini and Prathik submitted Monday ideas in #dco-ttd. Vaidik hasn't responded to d6 ping yet. No hub status changes."
     },
     {
       "_id": "ci_20260214_06",
@@ -1643,7 +1953,7 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Shared 2 Substack reading links in #goodreads (~9:09-9:12 AM GST). Saturday morning browsing \u2014 not content-status related.",
+          "summary": "Shared 2 Substack reading links in #goodreads (~9:09-9:12 AM GST). Saturday morning browsing — not content-status related.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
@@ -1686,7 +1996,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Saturday 10 AM \u2014 Joel sharing reads in #goodreads. Vaidik still unresponsive to d6 ping (2h since 8 AM DM). No hub status changes. No pings (Vaidik 4h cooldown). Approaching d6 noon deadline."
+      "summary": "Saturday 10 AM — Joel sharing reads in #goodreads. Vaidik still unresponsive to d6 ping (2h since 8 AM DM). No hub status changes. No pings (Vaidik 4h cooldown). Approaching d6 noon deadline."
     },
     {
       "_id": "ci_20260214_11",
@@ -1725,7 +2035,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "11 AM GST Saturday \u2014 Joel very active (Drift doc review + Hyperdash retainer work with Viktor). Vaidik unresponsive to d6 ping, deadline in ~1.5h. No hub status changes. No pings (Vaidik 4h cooldown)."
+      "summary": "11 AM GST Saturday — Joel very active (Drift doc review + Hyperdash retainer work with Viktor). Vaidik unresponsive to d6 ping, deadline in ~1.5h. No hub status changes. No pings (Vaidik 4h cooldown)."
     },
     {
       "_id": "ci_20260214_12",
@@ -1789,7 +2099,7 @@
           "channel": "DM"
         }
       ],
-      "summary": "Joel created TODO tracker with 3 deadline-chases (Sid ZkSync 3PM, Joel Drift 4PM, Saurabh revenue 4PM). Vaidik re-pinged \u2014 d6 deadline imminent with no response. Active agent threads handling chasers."
+      "summary": "Joel created TODO tracker with 3 deadline-chases (Sid ZkSync 3PM, Joel Drift 4PM, Saurabh revenue 4PM). Vaidik re-pinged — d6 deadline imminent with no response. Active agent threads handling chasers."
     },
     {
       "_id": "ci_20260214_13",
@@ -1859,7 +2169,7 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Active earlier today \u2014 shared Drift TODO list, Hyperdash retainer work, set up chase tracker (3-5 PM deadlines). No new messages in last hour. Drift doc due by 4 PM GST, zkSync bake-in by 5 PM.",
+          "summary": "Active earlier today — shared Drift TODO list, Hyperdash retainer work, set up chase tracker (3-5 PM deadlines). No new messages in last hour. Drift doc due by 4 PM GST, zkSync bake-in by 5 PM.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -1909,7 +2219,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "2 PM GST Saturday \u2014 quiet hour. Vaidik d6 overdue ~1.5h, no response to 2 pings (4h cooldown blocks re-ping until 4 PM). Chase threads tracking Joel Drift (4 PM), Saurabh revenue (4 PM), Joel zkSync bake-in (5 PM). Silver scheduled."
+      "summary": "2 PM GST Saturday — quiet hour. Vaidik d6 overdue ~1.5h, no response to 2 pings (4h cooldown blocks re-ping until 4 PM). Chase threads tracking Joel Drift (4 PM), Saurabh revenue (4 PM), Joel zkSync bake-in (5 PM). Silver scheduled."
     },
     {
       "_id": "ci_20260214_15",
@@ -1919,7 +2229,7 @@
       "entries": [
         {
           "person": "Sid",
-          "summary": "Active in #goodreads \u2014 commented 'what a fckng amazing read' on Joel's Substack share at 3:02 PM GST. zkSync feedback already provided earlier today.",
+          "summary": "Active in #goodreads — commented 'what a fckng amazing read' on Joel's Substack share at 3:02 PM GST. zkSync feedback already provided earlier today.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -1955,7 +2265,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "3 PM GST Saturday \u2014 quiet scan. Only new activity: Sid commented in #goodreads. Viktor chase thread posted 3 PM check-in (Sid zkSync done). Vaidik d6 overdue 2.3h, 2 pings unanswered. 4 PM deadlines approaching for Joel (Drift) and Saurabh (revenue req). No hub changes, no pings, no Joel brief."
+      "summary": "3 PM GST Saturday — quiet scan. Only new activity: Sid commented in #goodreads. Viktor chase thread posted 3 PM check-in (Sid zkSync done). Vaidik d6 overdue 2.3h, 2 pings unanswered. 4 PM deadlines approaching for Joel (Drift) and Saurabh (revenue req). No hub changes, no pings, no Joel brief."
     },
     {
       "_id": "ci_20260214_12",
@@ -1965,7 +2275,7 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Actively cross-referencing Drift doc claims (~4 PM GST). Needs 30 more min past 4 PM deadline \u2014 shared progress in MPDM. Also setting up Substack newsletter subscriptions (non-content). Very active all afternoon.",
+          "summary": "Actively cross-referencing Drift doc claims (~4 PM GST). Needs 30 more min past 4 PM deadline — shared progress in MPDM. Also setting up Substack newsletter subscriptions (non-content). Very active all afternoon.",
           "items_updated": [
             "e4"
           ],
@@ -1988,7 +2298,7 @@
         },
         {
           "person": "Vaidik",
-          "summary": "Still MIA \u2014 d6 (DeFi yield TTD) overdue 3.3h. Zero response to 2 DM pings (8 AM + noon). 20+ hours since 'wrapping up'. 4h cooldown expired \u2014 re-pinged (3rd ping). Zero public channel activity.",
+          "summary": "Still MIA — d6 (DeFi yield TTD) overdue 3.3h. Zero response to 2 DM pings (8 AM + noon). 20+ hours since 'wrapping up'. 4h cooldown expired — re-pinged (3rd ping). Zero public channel activity.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2017,7 +2327,7 @@
           "channel": "DM"
         }
       ],
-      "summary": "4 PM GST Saturday \u2014 Joel actively on Drift doc (30 min past deadline). Saurabh missed 4 PM revenue req deadline (chase thread handling). Vaidik re-pinged (3rd, d6 overdue 3.3h). Sid done. Nishil quiet."
+      "summary": "4 PM GST Saturday — Joel actively on Drift doc (30 min past deadline). Saurabh missed 4 PM revenue req deadline (chase thread handling). Vaidik re-pinged (3rd, d6 overdue 3.3h). Sid done. Nishil quiet."
     },
     {
       "_id": "ci_20260214_17",
@@ -2061,7 +2371,7 @@
         },
         {
           "person": "Nishil",
-          "summary": "Quiet \u2014 Saturday. d7 (Stablecoin regulation TTD) due tomorrow.",
+          "summary": "Quiet — Saturday. d7 (Stablecoin regulation TTD) due tomorrow.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
@@ -2127,14 +2437,14 @@
         },
         {
           "person": "Sid",
-          "summary": "Updated via DM on day's progress (zkSync, Drift, Sunday sync). Asked if he needs anything tomorrow \u2014 no response yet.",
+          "summary": "Updated via DM on day's progress (zkSync, Drift, Sunday sync). Asked if he needs anything tomorrow — no response yet.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
         },
         {
           "person": "Vaidik",
-          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue ~5.5h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 22+ hours since 'wrapping up.' No public channel activity. Past 6 PM GST = no more pings today.",
+          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue ~5.5h. 3 pings sent (8 AM, noon, 4 PM) — zero response. 22+ hours since 'wrapping up.' No public channel activity. Past 6 PM GST = no more pings today.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2181,7 +2491,7 @@
         },
         {
           "person": "Vaidik",
-          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue ~6.5h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 23+ hours since 'wrapping up.' Past 6 PM = no more pings today.",
+          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue ~6.5h. 3 pings sent (8 AM, noon, 4 PM) — zero response. 23+ hours since 'wrapping up.' Past 6 PM = no more pings today.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2210,7 +2520,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "7 PM GST Saturday \u2014 quiet evening scan. Joel wrapping up (Substack setup, not content). Vaidik d6 overdue 6.5h, 3 pings unanswered, effectively done for today. All other writers offline. No hub updates, no pings, no Joel brief."
+      "summary": "7 PM GST Saturday — quiet evening scan. Joel wrapping up (Substack setup, not content). Vaidik d6 overdue 6.5h, 3 pings unanswered, effectively done for today. All other writers offline. No hub updates, no pings, no Joel brief."
     },
     {
       "_id": "ci_20260214_20",
@@ -2220,14 +2530,14 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Active at ~7:30-8 PM GST on Substack thread \u2014 asked how 182 newsletter subscriptions can help daily research reach. Viktor proposed daily briefing workflow. This is tooling/infrastructure, NOT content pipeline activity. Sunday fully planned: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Drift review 11:30-1 PM.",
+          "summary": "Active at ~7:30-8 PM GST on Substack thread — asked how 182 newsletter subscriptions can help daily research reach. Viktor proposed daily briefing workflow. This is tooling/infrastructure, NOT content pipeline activity. Sunday fully planned: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Drift review 11:30-1 PM.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Vaidik",
-          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue ~8h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 24+ hours since 'wrapping up.' Past 6 PM = no more pings today.",
+          "summary": "Still completely dark. d6 (DeFi yield TTD) overdue ~8h. 3 pings sent (8 AM, noon, 4 PM) — zero response. 24+ hours since 'wrapping up.' Past 6 PM = no more pings today.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2256,7 +2566,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "8 PM GST Saturday \u2014 quiet evening scan. Joel active on Substack newsletter strategy (182/200 subscribed, daily briefing proposed) \u2014 tooling, not content. Vaidik d6 overdue 8h, 3 pings unanswered, 24h+ since wrapping up. All other writers offline. No hub updates, no pings, no Joel brief."
+      "summary": "8 PM GST Saturday — quiet evening scan. Joel active on Substack newsletter strategy (182/200 subscribed, daily briefing proposed) — tooling, not content. Vaidik d6 overdue 8h, 3 pings unanswered, 24h+ since wrapping up. All other writers offline. No hub updates, no pings, no Joel brief."
     },
     {
       "_id": "ci_20260214_21",
@@ -2266,14 +2576,14 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Last active at ~6:28 PM GST in Substack thread \u2014 discussed daily research briefing workflow (182/200 newsletters subscribed). Tooling/infrastructure, not content pipeline. Sunday plan: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Drift review 11:30-1 PM.",
+          "summary": "Last active at ~6:28 PM GST in Substack thread — discussed daily research briefing workflow (182/200 newsletters subscribed). Tooling/infrastructure, not content pipeline. Sunday plan: hike 5:30-7:30, retainer 7:30-8:30, revenue stats 8:30-11:30, Drift review 11:30-1 PM.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Vaidik",
-          "summary": "Completely dark all day. d6 (DeFi yield TTD) overdue ~9h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 26+ hours since 'wrapping up' Friday evening. Past 6 PM = no more pings today.",
+          "summary": "Completely dark all day. d6 (DeFi yield TTD) overdue ~9h. 3 pings sent (8 AM, noon, 4 PM) — zero response. 26+ hours since 'wrapping up' Friday evening. Past 6 PM = no more pings today.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2302,7 +2612,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "9 PM GST Saturday \u2014 quiet evening scan. Zero new activity since 6:28 PM GST. Joel last active on Substack tooling (daily briefing). Vaidik d6 overdue 9h, 3 pings unanswered, 26h+ since wrapping up. All writers offline. No hub updates, no pings, no Joel brief."
+      "summary": "9 PM GST Saturday — quiet evening scan. Zero new activity since 6:28 PM GST. Joel last active on Substack tooling (daily briefing). Vaidik d6 overdue 9h, 3 pings unanswered, 26h+ since wrapping up. All writers offline. No hub updates, no pings, no Joel brief."
     },
     {
       "_id": "ci_20260214_22",
@@ -2320,7 +2630,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "10 PM GST Saturday \u2014 quiet scan. Joel briefly asked for Drift thesis/link (prepping for tomorrow). Vaidik d6 overdue ~10h, 3 pings unanswered. All writers offline."
+      "summary": "10 PM GST Saturday — quiet scan. Joel briefly asked for Drift thesis/link (prepping for tomorrow). Vaidik d6 overdue ~10h, 3 pings unanswered. All writers offline."
     },
     {
       "_id": "ci_20260214_23",
@@ -2330,14 +2640,14 @@
       "entries": [
         {
           "person": "Joel",
-          "summary": "Last active at ~9:37 PM GST \u2014 requested Drift thesis summary + doc link in DM (prepping for Sunday 11:30 AM review). Offline since.",
+          "summary": "Last active at ~9:37 PM GST — requested Drift thesis summary + doc link in DM (prepping for Sunday 11:30 AM review). Offline since.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Vaidik",
-          "summary": "Completely dark all day Saturday. d6 (DeFi yield TTD) overdue ~10.5h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 27.5+ hours since 'wrapping up' Friday evening.",
+          "summary": "Completely dark all day Saturday. d6 (DeFi yield TTD) overdue ~10.5h. 3 pings sent (8 AM, noon, 4 PM) — zero response. 27.5+ hours since 'wrapping up' Friday evening.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2366,7 +2676,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "11 PM GST Saturday \u2014 quiet scan. Zero activity since 9:37 PM (Joel Drift thesis request). Vaidik d6 overdue 10.5h, 3 pings unanswered, 27.5h+ since wrapping up. All writers offline. No hub updates, no pings, no Joel brief."
+      "summary": "11 PM GST Saturday — quiet scan. Zero activity since 9:37 PM (Joel Drift thesis request). Vaidik d6 overdue 10.5h, 3 pings unanswered, 27.5h+ since wrapping up. All writers offline. No hub updates, no pings, no Joel brief."
     },
     {
       "_id": "ci_20260215_00",
@@ -2383,7 +2693,7 @@
         },
         {
           "person": "Vaidik",
-          "summary": "Completely dark all day Saturday. d6 (DeFi yield TTD) overdue ~11.5h. 3 pings sent (8 AM, noon, 4 PM) \u2014 zero response. 28.5+ hours since 'wrapping up' Friday evening.",
+          "summary": "Completely dark all day Saturday. d6 (DeFi yield TTD) overdue ~11.5h. 3 pings sent (8 AM, noon, 4 PM) — zero response. 28.5+ hours since 'wrapping up' Friday evening.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2412,7 +2722,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Midnight GST Sunday \u2014 quiet scan. Zero activity since 10 PM Saturday (Joel Drift thesis request). Vaidik d6 overdue 11.5h, 3 pings unanswered, 28.5h+ since wrapping up. Nishil d7 due today. Joel's Sunday fully blocked. No hub updates, no pings, no Joel brief."
+      "summary": "Midnight GST Sunday — quiet scan. Zero activity since 10 PM Saturday (Joel Drift thesis request). Vaidik d6 overdue 11.5h, 3 pings unanswered, 28.5h+ since wrapping up. Nishil d7 due today. Joel's Sunday fully blocked. No hub updates, no pings, no Joel brief."
     },
     {
       "_id": "ci_20260214_21",
@@ -2444,7 +2754,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "1 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 12.5h (3 pings unanswered). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+      "summary": "1 AM GST Sunday — zero activity since midnight. Vaidik d6 overdue 12.5h (3 pings unanswered). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     },
     {
       "_id": "ci_20260214_22",
@@ -2476,7 +2786,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "2 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 13.5h (3 pings unanswered, 30.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+      "summary": "2 AM GST Sunday — zero activity since midnight. Vaidik d6 overdue 13.5h (3 pings unanswered, 30.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     },
     {
       "_id": "ci_20260215_03",
@@ -2507,7 +2817,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "Offline. e1 (ZkSync) handed to him for finalization \u2014 sync with Joel at 11 AM GST Sunday. e7 (revenue) doc delivered Saturday.",
+          "summary": "Offline. e1 (ZkSync) handed to him for finalization — sync with Joel at 11 AM GST Sunday. e7 (revenue) doc delivered Saturday.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -2515,7 +2825,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "3 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 14.5h (3 pings unanswered, 31.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+      "summary": "3 AM GST Sunday — zero activity since midnight. Vaidik d6 overdue 14.5h (3 pings unanswered, 31.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     },
     {
       "_id": "ci_20260215_04",
@@ -2525,7 +2835,7 @@
       "entries": [
         {
           "person": "all_writers",
-          "summary": "Zero activity across all channels and DMs. 4 AM GST Sunday \u2014 all writers offline as expected.",
+          "summary": "Zero activity across all channels and DMs. 4 AM GST Sunday — all writers offline as expected.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2533,7 +2843,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "Scan #36: 4 AM GST Sunday \u2014 zero activity. Vaidik d6 overdue ~15.5h (3 pings, 0 response, 32.5+h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+      "summary": "Scan #36: 4 AM GST Sunday — zero activity. Vaidik d6 overdue ~15.5h (3 pings, 0 response, 32.5+h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     },
     {
       "_id": "ci_20260215_05",
@@ -2564,7 +2874,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "Offline. e1 (ZkSync) handed to him for finalization \u2014 sync with Joel at 11 AM GST Sunday. e7 (revenue) doc delivered Saturday.",
+          "summary": "Offline. e1 (ZkSync) handed to him for finalization — sync with Joel at 11 AM GST Sunday. e7 (revenue) doc delivered Saturday.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -2572,7 +2882,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "5 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue 16.5h (3 pings unanswered, 33.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+      "summary": "5 AM GST Sunday — zero activity since midnight. Vaidik d6 overdue 16.5h (3 pings unanswered, 33.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     },
     {
       "_id": "ci_20260215_06",
@@ -2603,7 +2913,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "Offline. e1 (ZkSync) handed to him for finalization \u2014 sync with Joel at 11 AM GST Sunday. e7 (revenue) doc delivered Saturday.",
+          "summary": "Offline. e1 (ZkSync) handed to him for finalization — sync with Joel at 11 AM GST Sunday. e7 (revenue) doc delivered Saturday.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -2611,7 +2921,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "6 AM GST Sunday \u2014 zero activity since midnight. Vaidik d6 overdue ~17.5h (3 pings unanswered, 34.5+h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+      "summary": "6 AM GST Sunday — zero activity since midnight. Vaidik d6 overdue ~17.5h (3 pings unanswered, 34.5+h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     },
     {
       "_id": "ci_20260215_07",
@@ -2642,7 +2952,7 @@
         },
         {
           "person": "Saurabh",
-          "summary": "Offline. e1 (ZkSync) finalization pending \u2014 syncing with Joel at 11 AM GST. e7 (revenue) doc delivered Saturday.",
+          "summary": "Offline. e1 (ZkSync) finalization pending — syncing with Joel at 11 AM GST. e7 (revenue) doc delivered Saturday.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
@@ -2650,7 +2960,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "7 AM GST Sunday \u2014 Joel posted in #goodreads at ~2 AM (Munger speech, handled by separate thread). Vaidik d6 overdue ~18.5h (3 pings unanswered, 35.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
+      "summary": "7 AM GST Sunday — Joel posted in #goodreads at ~2 AM (Munger speech, handled by separate thread). Vaidik d6 overdue ~18.5h (3 pings unanswered, 35.5h since wrapping up). Nishil d7 due today. Joel Sunday fully blocked. All writers offline."
     },
     {
       "_id": "ci_20260215_08",
@@ -2667,28 +2977,28 @@
         },
         {
           "person": "Vaidik",
-          "summary": "d6 (DeFi yield TTD) overdue ~19.5h. 3 DM pings (8 AM, noon, 4 PM Sat), zero response. ~36.5 hours since 'wrapping up' Friday evening. No public activity. Not re-pinging \u2014 3 unanswered is enough, further pings unlikely to help.",
+          "summary": "d6 (DeFi yield TTD) overdue ~19.5h. 3 DM pings (8 AM, noon, 4 PM Sat), zero response. ~36.5 hours since 'wrapping up' Friday evening. No public activity. Not re-pinging — 3 unanswered is enough, further pings unlikely to help.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Nishil",
-          "summary": "d7 (Stablecoin regulation TTD) due today Feb 15. No activity yet. 8 AM GST \u2014 may appear later in the day.",
+          "summary": "d7 (Stablecoin regulation TTD) due today Feb 15. No activity yet. 8 AM GST — may appear later in the day.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
         },
         {
           "person": "Saurabh",
-          "summary": "Offline. Joel + Saurabh sync at 11 AM GST today \u2014 finalizing e1 (ZkSync) + revenue stats. e7 (revenue) doc delivered Saturday.",
+          "summary": "Offline. Joel + Saurabh sync at 11 AM GST today — finalizing e1 (ZkSync) + revenue stats. e7 (revenue) doc delivered Saturday.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "medium"
         },
         {
           "person": "Sid",
-          "summary": "Offline. No messages since yesterday. Viktor asked about Sunday needs yesterday evening \u2014 no response yet.",
+          "summary": "Offline. No messages since yesterday. Viktor asked about Sunday needs yesterday evening — no response yet.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "low"
@@ -2696,7 +3006,7 @@
       ],
       "hub_updates": [],
       "pings_sent": [],
-      "summary": "8 AM GST Sunday \u2014 zero new activity since 7 AM scan. Vaidik d6 overdue ~19.5h (3 pings unanswered, 36.5h since wrapping up \u2014 not re-pinging). Nishil d7 due today. Joel Sunday fully blocked (hike \u2192 retainer \u2192 revenue \u2192 Saurabh sync \u2192 Drift). All writers offline."
+      "summary": "8 AM GST Sunday — zero new activity since 7 AM scan. Vaidik d6 overdue ~19.5h (3 pings unanswered, 36.5h since wrapping up — not re-pinging). Nishil d7 due today. Joel Sunday fully blocked (hike → retainer → revenue → Saurabh sync → Drift). All writers offline."
     },
     {
       "_id": "ci_20260215_09",
@@ -2706,21 +3016,21 @@
       "entries": [
         {
           "person": "Prathik",
-          "summary": "Active in #goodreads \u2014 shared Scott Galloway 'Role Models' PDF, chatted with Joel about podcasts/books. Not content-pipeline work.",
+          "summary": "Active in #goodreads — shared Scott Galloway 'Role Models' PDF, chatted with Joel about podcasts/books. Not content-pipeline work.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Joel",
-          "summary": "Active 8:31-8:46 AM GST. Commented on goodreads, asked Viktor for X signup (CAPTCHA blocked) + revenue doc (provided). Executing Sunday plan \u2014 revenue stats block started.",
+          "summary": "Active 8:31-8:46 AM GST. Commented on goodreads, asked Viktor for X signup (CAPTCHA blocked) + revenue doc (provided). Executing Sunday plan — revenue stats block started.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
         },
         {
           "person": "Vaidik",
-          "summary": "Silent. d6 overdue ~20h (3 pings, 0 response, 37h since 'wrapping up'). Not re-pinging \u2014 Joel will need to handle directly.",
+          "summary": "Silent. d6 overdue ~20h (3 pings, 0 response, 37h since 'wrapping up'). Not re-pinging — Joel will need to handle directly.",
           "items_updated": [],
           "source": "slack_scan",
           "confidence": "high"
@@ -2748,7 +3058,7 @@
           "channel": "DM"
         }
       ],
-      "summary": "9 AM GST Sunday \u2014 Prathik + Joel active in goodreads. Joel executing Sunday plan (revenue stats). Nishil pinged about d7 due in 3.7h (still planned, 44h silent). Vaidik d6 overdue 20h, 3 pings unanswered \u2014 not re-pinging."
+      "summary": "9 AM GST Sunday — Prathik + Joel active in goodreads. Joel executing Sunday plan (revenue stats). Nishil pinged about d7 due in 3.7h (still planned, 44h silent). Vaidik d6 overdue 20h, 3 pings unanswered — not re-pinging."
     }
   ],
   "teamBandwidth": {
@@ -2796,10 +3106,10 @@
       },
       "load": "Light",
       "commitments": [
-        "TokenDispatch banners (ad-hoc, briefed day-of, ~few hours turnaround \u2014 can shift capacity)",
+        "TokenDispatch banners (ad-hoc, briefed day-of, ~few hours turnaround — can shift capacity)",
         "LiFi visuals done but may need banner/revisions"
       ],
-      "notes": "Wide open for new art assignments but TokenDispatch banners come in ad-hoc (briefed hours before needed) so capacity can shift on short notice. LiFi visuals done \u2014 may need banner or revisions. Best to brief art needs early in the week so he can plan around banner work."
+      "notes": "Wide open for new art assignments but TokenDispatch banners come in ad-hoc (briefed hours before needed) so capacity can shift on short notice. LiFi visuals done — may need banner or revisions. Best to brief art needs early in the week so he can plan around banner work."
     }
   }
 }
