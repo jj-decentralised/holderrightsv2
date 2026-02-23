@@ -1,5 +1,5 @@
 {
-  "version": 55,
+  "version": 56,
   "items": [
     {
       "_id": "t1",
@@ -131,8 +131,8 @@
       "dueDate": 1771977600000,
       "category": "organic",
       "createdAt": 1770972230398,
-      "updatedAt": 1771823364308,
-      "notes": "Converted from editorial to Twitter note. Draft due Monday Feb 23. Live Wednesday Feb 25.\nReference: PCP Doc \u2014 https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0",
+      "updatedAt": 1771824031123,
+      "notes": "Converted from editorial to Twitter note. Draft due Monday Feb 23. Live Wednesday Feb 25.",
       "activity": [
         {
           "ts": 1771593096301,
@@ -143,18 +143,13 @@
           "ts": 1771593000000,
           "text": "Joel converted from editorial article to Twitter note. Draft by Monday, live Wednesday.",
           "by": "Joel (via Viktor)"
-        },
-        {
-          "ts": 1771823364308,
-          "text": "Added PCP reference doc: https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0",
-          "by": "Sid (via Viktor)"
         }
       ],
       "format": "note",
       "referenceDocs": [
         {
           "title": "PCP Doc",
-          "url": "https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0"
+          "url": "https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit"
         }
       ]
     },
@@ -602,125 +597,160 @@
     {
       "_id": "d_w7_mon",
       "type": "ttd",
-      "title": "The book",
-      "status": "drafting",
+      "title": "Book reading",
+      "status": "published",
       "assignee": "Thejaswini",
       "dueDate": "2026-02-16",
       "createdAt": 1771235032294,
-      "updatedAt": 1771235032294,
+      "updatedAt": 1771835343636,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771235032294,
           "text": "Added from ideas call. Art brief requested from TJ.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771835343636,
+          "text": "Synced from Asana: title \u2192 'Book reading'; status \u2192 published",
+          "by": "Viktor (Asana sync)"
         }
       ]
     },
     {
       "_id": "d_w7_tue",
       "type": "ttd",
-      "title": "Quant story on DAOs",
-      "status": "drafting",
+      "title": "Quants piece on state of DATs",
+      "status": "published",
       "assignee": "Prathik",
       "dueDate": "2026-02-17",
       "createdAt": 1771235032294,
-      "updatedAt": 1771235032294,
+      "updatedAt": 1771835343636,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771235032294,
           "text": "Added from ideas call. Art brief requested from Prathik.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771835343636,
+          "text": "Synced from Asana: title \u2192 'Quants piece on state of DATs'; status \u2192 published",
+          "by": "Viktor (Asana sync)"
         }
       ]
     },
     {
       "_id": "d_w7_wed",
       "type": "ttd",
-      "title": "Tokenized gold market \u2014 Tether vs Paxos",
-      "status": "planned",
+      "title": "Tokenised gold duopoly: Tether vs Paxos",
+      "status": "published",
       "assignee": "Thejaswini",
       "dueDate": "2026-02-18",
       "createdAt": 1771235032294,
-      "updatedAt": 1771235032294,
+      "updatedAt": 1771835343636,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771235032294,
           "text": "Added from ideas call. Art brief requested from TJ.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771835343636,
+          "text": "Synced from Asana: title \u2192 'Tokenised gold duopoly: Tether vs Paxos'; status \u2192 published",
+          "by": "Viktor (Asana sync)"
         }
       ]
     },
     {
       "_id": "d_w7_thu",
       "type": "ttd",
-      "title": "Superstructure + RWA \u2014 BlackRock \u00d7 Uniswap",
-      "status": "planned",
-      "assignee": "Prathik, Thejaswini",
+      "title": "Crypto as superstructure + RWA",
+      "status": "published",
+      "assignee": "Prathik",
       "dueDate": "2026-02-19",
       "createdAt": 1771235032294,
-      "updatedAt": 1771235032294,
+      "updatedAt": 1771835343636,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771235032294,
           "text": "Added from ideas call. Art brief requested from Prathik & TJ.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771835343636,
+          "text": "Synced from Asana: title \u2192 'Crypto as superstructure + RWA'; status \u2192 published; assignee \u2192 Prathik",
+          "by": "Viktor (Asana sync)"
         }
       ]
     },
     {
       "_id": "d_w7_fri",
       "type": "ttd",
-      "title": "Coinbase + Robinhood blend",
-      "status": "planned",
+      "title": "Coinbase + Robinhood",
+      "status": "published",
       "assignee": "Prathik",
       "dueDate": "2026-02-20",
       "createdAt": 1771235032294,
-      "updatedAt": 1771235032294,
+      "updatedAt": 1771835343636,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771235032294,
           "text": "Added from ideas call \u2014 blend of earnings shifts + trend positioning.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771835343636,
+          "text": "Synced from Asana: title \u2192 'Coinbase + Robinhood'; status \u2192 published",
+          "by": "Viktor (Asana sync)"
         }
       ]
     },
     {
       "_id": "d_w7_sat",
       "type": "ttd",
-      "title": "Saturday article \u2014 TBD (Nishil pitching new idea)",
-      "status": "pitch",
+      "title": "Ownership Coins",
+      "status": "published",
       "assignee": "Nishil",
       "dueDate": "2026-02-21",
       "createdAt": 1771235032294,
-      "updatedAt": 1771235032294,
+      "updatedAt": 1771835343636,
       "activity": [
         {
           "ts": 1771235032294,
           "text": "Added from ideas call. Earlier pitches (enterprise chain era, off-chain yield) rejected. New idea needed today.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771835343636,
+          "text": "Synced from Asana: title \u2192 'Ownership Coins'; status \u2192 published",
+          "by": "Viktor (Asana sync)"
         }
       ]
     },
     {
       "_id": "d_w7_sun",
       "type": "ttd",
-      "title": "Reinsurance & protection markets",
-      "status": "planned",
+      "title": "Reinsurance by prediction markets",
+      "status": "published",
       "assignee": "Vaidik",
       "dueDate": "2026-02-22",
       "createdAt": 1771235032294,
-      "updatedAt": 1771235032294,
+      "updatedAt": 1771835343636,
       "artStatus": "needs_art",
       "activity": [
         {
           "ts": 1771235032294,
           "text": "Added from ideas call. Continues Vaidik's previous work on this topic. Art brief requested.",
           "by": "Viktor"
+        },
+        {
+          "ts": 1771835343636,
+          "text": "Synced from Asana: title \u2192 'Reinsurance by prediction markets'; status \u2192 published",
+          "by": "Viktor (Asana sync)"
         }
       ]
     },
@@ -803,19 +833,130 @@
       "title": "PCP / Semiliquid",
       "status": "assigned",
       "assignee": "Joel",
-      "dueDate": 1772870400000,
+      "dueDate": 1741219200000,
       "category": "organic",
-      "createdAt": 1771822975192,
-      "updatedAt": 1771822975192,
-      "notes": "Article on PCP/semiliquid. Due March 6. Rico following up on interviews.",
+      "createdAt": 1771824031120,
+      "updatedAt": 1771824031120,
+      "notes": "Rico following up on interviews. Due March 6 per Sid.",
       "referenceDocs": [
-        "https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0"
+        {
+          "title": "PCP Doc",
+          "url": "https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit"
+        }
       ],
       "activity": [
         {
-          "ts": 1771822975192,
-          "text": "Added to content hub under articles. Due March 6 (synced with Asana). Reference doc attached.",
-          "by": "Viktor (via Sid + Joel)"
+          "ts": 1771824031120,
+          "text": "Added to content hub. Asana deadline updated to March 6. Reference doc linked. Rico on interviews.",
+          "by": "Viktor"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_tue",
+      "type": "ttd",
+      "title": "Prediction markets as policymaking tools",
+      "status": "review",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-25",
+      "weekNumber": 9,
+      "createdAt": 1771835343636,
+      "updatedAt": 1771835343636,
+      "activity": [
+        {
+          "ts": 1771835343636,
+          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213387212491513",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_thu",
+      "type": "ttd",
+      "title": "The Reading List",
+      "status": "review",
+      "assignee": "Prathik",
+      "dueDate": "2026-02-27",
+      "weekNumber": 9,
+      "createdAt": 1771835343636,
+      "updatedAt": 1771835343636,
+      "activity": [
+        {
+          "ts": 1771835343636,
+          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213390126545053",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_fri",
+      "type": "ttd",
+      "title": "Ondo's expansion into RWA",
+      "status": "review",
+      "assignee": "Nishil",
+      "dueDate": "2026-02-28",
+      "weekNumber": 9,
+      "createdAt": 1771835343636,
+      "updatedAt": 1771835343636,
+      "activity": [
+        {
+          "ts": 1771835343636,
+          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213395499728490",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_sat",
+      "type": "ttd",
+      "title": "DeepDive into ERC-5564",
+      "status": "planned",
+      "assignee": "Vaidik",
+      "dueDate": "2026-03-01",
+      "weekNumber": 9,
+      "createdAt": 1771835343636,
+      "updatedAt": 1771835343636,
+      "activity": [
+        {
+          "ts": 1771835343636,
+          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213394795657640",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_sat_2",
+      "type": "ttd",
+      "title": "Every protocol Will Need an AI Red Team",
+      "status": "review",
+      "assignee": "Vaidik",
+      "dueDate": "2026-03-01",
+      "weekNumber": 9,
+      "createdAt": 1771835343636,
+      "updatedAt": 1771835343636,
+      "activity": [
+        {
+          "ts": 1771835343636,
+          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213395499728504",
+          "by": "Viktor (Asana sync)"
+        }
+      ]
+    },
+    {
+      "_id": "d_w9_sun",
+      "type": "ttd",
+      "title": "Book reading",
+      "status": "review",
+      "assignee": "Thejaswini",
+      "dueDate": null,
+      "weekNumber": 9,
+      "createdAt": 1771835343636,
+      "updatedAt": 1771835343636,
+      "activity": [
+        {
+          "ts": 1771835343636,
+          "text": "Added from Asana TTD project (Week 09). Asana GID: 1213395499727072",
+          "by": "Viktor (Asana sync)"
         }
       ]
     }
@@ -868,7 +1009,7 @@
       "slackId": "U071W6DL51V"
     }
   ],
-  "updatedAt": 1771593240000,
+  "updatedAt": 1771824031120,
   "updatedBy": "viktor",
   "checkins": [
     {
