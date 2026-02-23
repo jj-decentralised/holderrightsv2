@@ -1,5 +1,5 @@
 {
-  "version": 54,
+  "version": 55,
   "items": [
     {
       "_id": "t1",
@@ -783,6 +783,28 @@
           "ts": 1771593240000,
           "text": "Added by Joel. Assigned to Vaidik. Due Monday morning Feb 23.",
           "by": "Joel (via Viktor)"
+        }
+      ]
+    },
+    {
+      "_id": "e17",
+      "type": "editorial",
+      "title": "PCP / Semiliquid",
+      "status": "assigned",
+      "assignee": "Joel",
+      "dueDate": 1772870400000,
+      "category": "organic",
+      "createdAt": 1771822975192,
+      "updatedAt": 1771822975192,
+      "notes": "Article on PCP/semiliquid. Due March 6. Rico following up on interviews.",
+      "referenceDocs": [
+        "https://docs.google.com/document/d/1xRKEC9nhAIg-8Z25HEomGuBB6tjdsbKqimijnLVq_b0/edit?tab=t.0"
+      ],
+      "activity": [
+        {
+          "ts": 1771822975192,
+          "text": "Added to content hub under articles. Due March 6 (synced with Asana). Reference doc attached.",
+          "by": "Viktor (via Sid + Joel)"
         }
       ]
     }
